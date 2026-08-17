@@ -384,17 +384,22 @@ function md(src) {
 }
 
 function renderTextbook() {
-  const readings = TEXTS.filter((t) => t.id.startsWith("tb4-"))
-    .map(lessonRow)
-    .join("");
+  const list = TEXTS.filter((t) => t.id.startsWith("tb4-"));
+  const read = list.filter((t) => state.done.includes(t.id)).length;
   document.getElementById("app").innerHTML = `
     ${nav("tb4")}
-    <div class="wrap narrow">
-      <article class="md" id="tb">Loading…</article>
-      <div class="list">
-        <div class="list-head"><h2>配套阅读 · Companion readings</h2></div>
-        <div>${readings}</div>
+    <div class="wrap">
+      <div class="page-head">
+        <h1>HSK 标准教程 4 上</h1>
+        <p>${list.length} lessons · ${read} read · tap a lesson to read with pinyin &amp; quiz</p>
       </div>
+      <div class="list">
+        <div>${list.map(lessonRow).join("")}</div>
+      </div>
+      <div class="list">
+        <div class="list-head"><h2>Textbook map · PDF study index</h2></div>
+      </div>
+      <article class="md" id="tb">Loading…</article>
     </div>`;
   fetch(href("/HSK-4A-Textbook.md"))
     .then((r) => r.ok ? r.text() : Promise.reject())

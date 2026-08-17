@@ -4,9 +4,13 @@ Tap-to-gloss graded readers for HSK 4, 5, and 6.
 
 **Live site:** https://thanhtoantnt.github.io/mandarin-reading/
 
+- [HSK 4](https://thanhtoantnt.github.io/mandarin-reading/hsk4/)
+- [HSK 5](https://thanhtoantnt.github.io/mandarin-reading/hsk5/)
+- [HSK 6](https://thanhtoantnt.github.io/mandarin-reading/hsk6/)
+
 ## Use
 
-Open a lesson, tap a word for pinyin + English. Toggle 拼音 to show readings above the line.
+Open a level, pick a lesson, tap a word for pinyin + English. Toggle 拼音 to show readings above the line.
 
 Progress is stored in the browser (`localStorage`).
 

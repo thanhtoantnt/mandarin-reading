@@ -177,7 +177,7 @@ function renderQuiz(qs) {
           const r = Math.floor(Math.random() * (k + 1));
           [words[k], words[r]] = [words[r], words[k]];
         }
-      } while (words.join("") === q.a.join(""));
+      } while (new Set(q.words).size > 1 && words.join("") === q.a.join(""));
       words.forEach((w) => {
         const c = document.createElement("button");
         c.type = "button";

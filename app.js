@@ -26,7 +26,9 @@ function href(path) {
 function route() {
   const p = location.pathname.replace(/\/index\.html$/, "");
   if (/\/hsk4-textbook\/?$/.test(p)) return { kind: "textbook" };
-  if (/\/hsk4-workbook\/?$/.test(p)) return { kind: "workbook" };
+  if (/\/hsk4-workbook\/?$/.test(p)) {
+    return { kind: "workbook", n: new URLSearchParams(location.search).get("n") };
+  }
   const m = p.match(/\/hsk([456])\/?$/);
   if (m) return { kind: "level", level: Number(m[1]) };
   if (/\/lesson\/?$/.test(p)) {
@@ -424,19 +426,48 @@ function renderTextbook() {
     </div>`;
 }
 
-function renderWorkbook() {
+function wbRow(w) {
+  const c = (l) => w.quiz.filter((q) => q.label === l).length;
+  return `
+    <a class="row" href="${href("/hsk4-workbook/?n=" + w.n)}">
+      <div>
+        <span class="badge level">HSK 4</span>
+        <span class="title">第${w.n}课 ${esc(w.title)}</span>
+      </div>
+      <div class="meta">
+        <span>${w.quiz.length} 题</span>
+        <span>选词 ${c("选词填空")} · 排序 ${c("排列顺序")} · 阅读 ${c("选择答案")} · 造句 ${c("完成句子")}</span>
+      </div>
+    </a>`;
+}
+
+function renderWorkbook(n) {
+  const wb = window.WB4 || [];
+  const lesson = n ? wb.find((w) => String(w.n) === n) : null;
+  if (lesson) {
+    document.getElementById("app").innerHTML = `
+      ${nav("wb4")}
+      <div class="wrap narrow">
+        <a class="back" href="${href("/hsk4-workbook/")}">&larr; 练习册</a>
+        <div class="page-head">
+          <h1>第${lesson.n}课 ${esc(lesson.title)}</h1>
+          <p>${lesson.quiz.length} 题 · 选词 8 · 排序 4 · 阅读 9 · 造句 5 · 听力与看图题未收录</p>
+        </div>
+        <div id="wb-lesson"></div>
+      </div>`;
+    document.getElementById("wb-lesson").append(renderQuiz(lesson.quiz));
+    return;
+  }
   document.getElementById("app").innerHTML = `
     ${nav("wb4")}
     <div class="wrap">
       <div class="page-head">
         <h1>HSK 标准教程 4 上 · 练习册</h1>
-        <p>10 课 · 260 题 · <a href="${href("/HSK-4A-Workbook.md")}">workbook map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
+        <p>${wb.length} 课 · ${wb.reduce((s, w) => s + w.quiz.length, 0)} 题 · <a href="${href("/HSK-4A-Workbook.md")}">workbook map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
       </div>
       <p class="meta">题目录自练习册(阅读23–43、书写44–48)。听力1–22需音频、49–50看图造句,未收录;练习册未附答案,本页答案为整理所得;个别扫描不清的词语按课本词表复原,个别选项从略。</p>
-      <div id="wb-drills">${(window.WB4 || []).map((w) => `
-        <details class="wb" id="wb-${w.n}">
-          <summary>第${w.n}课 ${esc(w.title)} · ${w.quiz.length} 题</summary>
-        </details>`).join("")}
+      <div class="list">
+        <div>${wb.map(wbRow).join("")}</div>
       </div>
     </div>
     <div class="wrap narrow">
@@ -445,9 +476,6 @@ function renderWorkbook() {
       </div>
       <article class="md" id="wb">Loading…</article>
     </div>`;
-  (window.WB4 || []).forEach((w) => {
-    document.getElementById("wb-" + w.n).append(renderQuiz(w.quiz));
-  });
   fetch(href("/HSK-4A-Workbook.md"))
     .then((r) => r.ok ? r.text() : Promise.reject())
     .then((t) => { document.getElementById("wb").innerHTML = md(t); })
@@ -458,5 +486,5 @@ const r = route();
 if (r.kind === "level") renderLevel(r.level);
 else if (r.kind === "read") renderRead(r.id);
 else if (r.kind === "textbook") renderTextbook();
-else if (r.kind === "workbook") renderWorkbook();
+else if (r.kind === "workbook") renderWorkbook(r.n);
 else renderHome();

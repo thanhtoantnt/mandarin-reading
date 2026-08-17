@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>读中文 · Mandarin Reading</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <h1>读中文</h1>
+      <p>Tap a word. Read a little every day.</p>
+    </div>
+    <div class="toggles">
+      <label><input type="checkbox" id="show-pinyin"> 拼音</label>
+      <label><input type="checkbox" id="show-english"> English</label>
+    </div>
+  </header>
+
+  <nav class="lessons" id="lessons"></nav>
+
+  <main>
+    <article class="reader">
+      <header class="reader-head">
+        <h2 id="title"></h2>
+        <p class="meta" id="meta"></p>
+      </header>
+      <div id="text" class="text"></div>
+      <p id="english" class="english" hidden></p>
+    </article>
+
+    <aside class="card" id="word-card">
+      <p class="hint">Tap a word to see pinyin and meaning.</p>
+    </aside>
+  </main>
+
+  <footer>
+    <button type="button" id="mark-done">Mark as read</button>
+    <span id="progress"></span>
+  </footer>
+
+  <script src="texts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

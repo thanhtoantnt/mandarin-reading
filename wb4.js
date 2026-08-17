@@ -10,7 +10,7 @@
 // “地球(环境)研讨会”/Q38 D=结果, L16 one bank decoy dropped + Q41/Q38 two options
 // rebuilt, L17 Q44 下面, L18 词库D=收(没收到通知)/Q38 two options rebuilt, L19 Q44 你,
 // Q45 晚上九点 as printed, Q46 乐曲, Q47 sentence order per tiles, L20 Q44 飞机.
-const WB4 = [
+var WB4 = [ // var (not const) so it lands on window for window.WB4 lookups
   {
     n: 1,
     title: "简单的爱情",

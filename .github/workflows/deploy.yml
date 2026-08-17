@@ -26,7 +26,7 @@ jobs:
       - name: Stage static site
         run: |
           mkdir -p _site/hsk4 _site/hsk5 _site/hsk6 _site/hsk4-textbook _site/lesson
-          cp index.html styles.css app.js texts.js HSK-4A-Textbook.md _site/
+          cp index.html styles.css app.js texts.js HSK-4A-Textbook.md HSK-4A-Workbook.md _site/
           cp index.html _site/hsk4/index.html
           cp index.html _site/hsk5/index.html
           cp index.html _site/hsk6/index.html

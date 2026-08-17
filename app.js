@@ -323,65 +323,6 @@ function renderRead(id) {
   }
 }
 
-function esc(s) {
-  return s.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", "\"": "&quot;" }[c]));
-}
-function inline(s) {
-  return esc(s)
-    .replace(/`([^`]+)`/g, "<code>$1</code>")
-    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
-    .replace(/\*([^*]+)\*/g, "<em>$1</em>");
-}
-function md(src) {
-  const out = [];
-  const lines = src.replace(/\r\n/g, "\n").split("\n");
-  let i = 0;
-  const flushP = (buf) => {
-    if (buf.length) out.push("<p>" + inline(buf.join(" ")) + "</p>");
-    buf.length = 0;
-  };
-  while (i < lines.length) {
-    const line = lines[i];
-    if (!line.trim()) { i++; continue; }
-    if (line.startsWith("# ")) { out.push("<h1>" + inline(line.slice(2)) + "</h1>"); i++; continue; }
-    if (line.startsWith("## ")) { out.push("<h2>" + inline(line.slice(3)) + "</h2>"); i++; continue; }
-    if (line.startsWith("### ")) { out.push("<h3>" + inline(line.slice(4)) + "</h3>"); i++; continue; }
-    if (line.startsWith("---")) { out.push("<hr>"); i++; continue; }
-    if (line.startsWith("|")) {
-      const rows = [];
-      while (i < lines.length && lines[i].startsWith("|")) {
-        rows.push(lines[i].split("|").slice(1, -1).map((c) => c.trim()));
-        i++;
-      }
-      const body = rows.filter((r) => !r.every((c) => /^[-:]+$/.test(c)));
-      if (body.length) {
-        const [head, ...rest] = body;
-        out.push("<table><thead><tr>" + head.map((c) => "<th>" + inline(c) + "</th>").join("") + "</tr></thead><tbody>" +
-          rest.map((r) => "<tr>" + r.map((c) => "<td>" + inline(c) + "</td>").join("") + "</tr>").join("") +
-          "</tbody></table>");
-      }
-      continue;
-    }
-    if (/^\d+\. /.test(line) || line.startsWith("- ")) {
-      const ol = /^\d+\. /.test(line);
-      const items = [];
-      while (i < lines.length && (ol ? /^\d+\. /.test(lines[i]) : lines[i].startsWith("- "))) {
-        items.push("<li>" + inline(lines[i].replace(ol ? /^\d+\. / : /^- /, "")) + "</li>");
-        i++;
-      }
-      out.push((ol ? "<ol>" : "<ul>") + items.join("") + (ol ? "</ol>" : "</ul>"));
-      continue;
-    }
-    const buf = [line];
-    i++;
-    while (i < lines.length && lines[i].trim() && !/^#{1,3} |^---|^\||^\d+\. |^- /.test(lines[i])) {
-      buf.push(lines[i]);
-      i++;
-    }
-    flushP(buf);
-  }
-  return out.join("");
-}
 
 function renderTextbook() {
   const list = TEXTS.filter((t) => t.id.startsWith("tb4-"));
@@ -391,20 +332,12 @@ function renderTextbook() {
     <div class="wrap">
       <div class="page-head">
         <h1>HSK 标准教程 4 上</h1>
-        <p>${list.length} lessons · ${read} read · tap a lesson to read with pinyin &amp; quiz</p>
+        <p>${list.length} lessons · ${read} read · <a href="${href("/HSK-4A-Textbook.md")}">textbook map</a></p>
       </div>
       <div class="list">
         <div>${list.map(lessonRow).join("")}</div>
       </div>
-      <div class="list">
-        <div class="list-head"><h2>Textbook map · PDF study index</h2></div>
-      </div>
-      <article class="md" id="tb">Loading…</article>
     </div>`;
-  fetch(href("/HSK-4A-Textbook.md"))
-    .then((r) => r.ok ? r.text() : Promise.reject())
-    .then((t) => { document.getElementById("tb").innerHTML = md(t); })
-    .catch(() => { document.getElementById("tb").textContent = "Could not load HSK-4A-Textbook.md"; });
 }
 
 const r = route();

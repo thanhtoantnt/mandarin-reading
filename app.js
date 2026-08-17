@@ -58,6 +58,7 @@ function nav(active) {
 }
 
 function lessonRow(t) {
+  const paras = t.sections ? t.sections.flatMap((s) => s.paragraphs) : t.paragraphs;
   const done = state.done.includes(t.id)
     ? `<span class="badge done">Read</span>` : "";
   return `
@@ -68,7 +69,7 @@ function lessonRow(t) {
       </div>
       <div class="meta">
         <span>${t.titleEn}</span>
-        <span>${t.paragraphs.reduce((n, p) => n + p.filter((w) => w.py).length, 0)} words</span>
+        <span>${paras.reduce((n, p) => n + p.filter((w) => w.py).length, 0)} words</span>
         <span>source: ${t.source.name}</span>
       </div>
     </a>`;
@@ -275,7 +276,7 @@ function renderRead(id) {
     </div>`;
 
   const textEl = document.getElementById("text");
-  textEl.replaceChildren(...text.paragraphs.map((para) => {
+  const paraEl = (para) => {
     const p = document.createElement("p");
     para.forEach((tok) => {
       if (!isWord(tok)) {
@@ -299,7 +300,18 @@ function renderRead(id) {
       p.append(span);
     });
     return p;
-  }));
+  };
+  if (text.sections) {
+    text.sections.forEach((sec) => {
+      const h = document.createElement("h3");
+      h.className = "sec-title";
+      h.textContent = sec.title;
+      textEl.append(h);
+      sec.paragraphs.forEach((para) => textEl.append(paraEl(para)));
+    });
+  } else {
+    text.paragraphs.forEach((para) => textEl.append(paraEl(para)));
+  }
 
   document.getElementById("show-pinyin").onchange = (e) => {
     state.pinyin = e.target.checked;
@@ -318,6 +330,15 @@ function renderRead(id) {
     saveState(state);
     renderRead(id);
   };
+  if (text.notes || text.compare || text.sameChar || text.culture) {
+    const s = document.createElement("section");
+    s.className = "study";
+    if (text.notes) s.innerHTML += `<h2>学一学 · 注释</h2><ul>${text.notes.map((n) => `<li><strong>${n.point}</strong><span>${n.ex}</span></li>`).join("")}</ul>`;
+    if (text.compare) s.innerHTML += `<h2>比一比</h2><p><strong>${text.compare.pair}</strong></p><p>${text.compare.note}</p>`;
+    if (text.sameChar) s.innerHTML += `<h2>同字词 · ${text.sameChar.char}</h2><p>${text.sameChar.words}</p>`;
+    if (text.culture) s.innerHTML += `<h2>文化 · ${text.culture.title}</h2><p>${text.culture.body}</p>`;
+    document.querySelector(".wrap.narrow").append(s);
+  }
   if (text.quiz) {
     document.querySelector(".wrap.narrow").append(renderQuiz(text.quiz));
   }

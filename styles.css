@@ -196,6 +196,29 @@ a { color: inherit; text-decoration: none; }
 }
 body:not(.pinyin-on) rt { display: none; }
 
+.sec-title {
+  font-family: "Noto Serif SC", serif;
+  font-size: 1.1rem;
+  color: #93bbfd;
+  margin: 1.6rem 0 0.6rem;
+}
+.sec-title:first-child { margin-top: 0.2rem; }
+
+.study {
+  margin-top: 1rem;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  padding: 1rem 1.2rem;
+}
+.study h2 { font-size: 1rem; color: #93bbfd; margin: 1.2rem 0 0.5rem; }
+.study h2:first-child { margin-top: 0; }
+.study ul { margin: 0; padding-left: 1.2rem; }
+.study li { margin: 0 0 0.6rem; color: var(--muted); line-height: 1.6; }
+.study li strong { color: #f5f5f5; display: block; }
+.study p { margin: 0 0 0.5rem; color: var(--muted); line-height: 1.6; }
+.study p strong { color: #f5f5f5; }
+
 .english {
   margin: 1rem 0 0;
   padding-top: 1rem;

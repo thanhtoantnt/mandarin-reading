@@ -411,17 +411,23 @@ function md(src) {
 }
 
 function renderTextbook() {
-  const list = TEXTS.filter((t) => t.id.startsWith("tb4-"));
-  const read = list.filter((t) => state.done.includes(t.id)).length;
+  const a = TEXTS.filter((t) => t.id.startsWith("tb4-"));
+  const b = TEXTS.filter((t) => t.id.startsWith("tb4b-"));
+  const read = (l) => l.filter((t) => state.done.includes(t.id)).length;
   document.getElementById("app").innerHTML = `
     ${nav("tb4")}
     <div class="wrap">
       <div class="page-head">
-        <h1>HSK 标准教程 4 上</h1>
-        <p>${list.length} lessons · ${read} read · <a href="${href("/HSK-4A-Textbook.md")}">textbook map</a> · <a href="${href("/hsk4-workbook/")}">练习册 drills</a></p>
+        <h1>HSK 标准教程 4 上／下</h1>
+        <p>${a.length + b.length} lessons · ${read(a) + read(b)} read · <a href="${href("/HSK-4A-Textbook.md")}">4 上 map</a> · <a href="${href("/HSK-4B-Textbook.md")}">4 下 map</a> · <a href="${href("/hsk4-workbook/")}">练习册 drills</a></p>
       </div>
       <div class="list">
-        <div>${list.map(lessonRow).join("")}</div>
+        <div class="list-head"><h2>上册 · Lessons 1–10</h2></div>
+        <div>${a.map(lessonRow).join("")}</div>
+      </div>
+      <div class="list">
+        <div class="list-head"><h2>下册 · Lessons 11–20</h2></div>
+        <div>${b.map(lessonRow).join("")}</div>
       </div>
     </div>`;
 }

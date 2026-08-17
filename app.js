@@ -9,8 +9,9 @@ function saveState(state) {
   localStorage.setItem(KEY, JSON.stringify(state));
 }
 
+const LEVELS = [4, 5, 6];
 const state = Object.assign(
-  { textId: TEXTS[0].id, done: [], pinyin: false, english: false },
+  { textId: TEXTS[0].id, level: TEXTS[0].level, done: [], pinyin: false, english: false },
   loadState()
 );
 const known = new Set(TEXTS.map((t) => t.id));
@@ -18,6 +19,7 @@ if (!known.has(state.textId)) state.textId = TEXTS[0].id;
 state.done = state.done.filter((id) => known.has(id));
 
 const $ = (id) => document.getElementById(id);
+const tabsEl = $("tabs");
 const lessonsEl = $("lessons");
 const textEl = $("text");
 const cardEl = $("word-card");
@@ -28,15 +30,40 @@ function currentText() {
   return TEXTS.find((t) => t.id === state.textId) || TEXTS[0];
 }
 
+function textsAt(level) {
+  return TEXTS.filter((t) => t.level === level);
+}
+
+if (!LEVELS.includes(state.level) || currentText().level !== state.level) {
+  state.level = currentText().level;
+}
+
 function isWord(tok) {
   return Boolean(tok.py || tok.en);
 }
 
-function renderLessons() {
-  lessonsEl.replaceChildren(...TEXTS.map((t) => {
+function renderTabs() {
+  tabsEl.replaceChildren(...LEVELS.map((level) => {
     const b = document.createElement("button");
     b.type = "button";
-    b.textContent = `${t.title} · HSK ${t.level}`;
+    b.textContent = `HSK ${level}`;
+    if (level === state.level) b.classList.add("active");
+    b.onclick = () => {
+      state.level = level;
+      const list = textsAt(level);
+      if (!list.some((t) => t.id === state.textId)) state.textId = list[0].id;
+      saveState(state);
+      render();
+    };
+    return b;
+  }));
+}
+
+function renderLessons() {
+  lessonsEl.replaceChildren(...textsAt(state.level).map((t) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = t.title;
     if (t.id === state.textId) b.classList.add("active");
     if (state.done.includes(t.id)) b.classList.add("done");
     b.onclick = () => {
@@ -88,7 +115,9 @@ function showWord(tok, span) {
 }
 
 function renderProgress() {
-  $("progress").textContent = `${state.done.length} / ${TEXTS.length} read`;
+  const list = textsAt(state.level);
+  const n = list.filter((t) => state.done.includes(t.id)).length;
+  $("progress").textContent = `HSK ${state.level}: ${n} / ${list.length} read`;
   const done = state.done.includes(state.textId);
   markBtn.textContent = done ? "Mark unread" : "Mark as read";
 }
@@ -97,6 +126,7 @@ function render() {
   document.body.classList.toggle("pinyin-on", state.pinyin);
   $("show-pinyin").checked = state.pinyin;
   $("show-english").checked = state.english;
+  renderTabs();
   renderLessons();
   renderText();
   renderProgress();

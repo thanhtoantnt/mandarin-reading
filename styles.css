@@ -34,6 +34,32 @@ body {
 .toggles { display: flex; gap: 1rem; color: var(--muted); font-size: 0.95rem; }
 .toggles label { cursor: pointer; user-select: none; }
 
+.tabs {
+  display: flex;
+  gap: 0;
+  max-width: 52rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.tabs button {
+  flex: 1;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  padding: 0.55rem 0.4rem 0.65rem;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+}
+.tabs button.active {
+  color: var(--ink);
+  border-bottom-color: var(--accent);
+}
+
 .lessons {
   display: flex;
   gap: 0.5rem;

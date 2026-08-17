@@ -65,12 +65,12 @@ function lessonRow(t) {
     <a class="row" href="${href("/lesson/?id=" + t.id)}">
       <div>
         ${done}<span class="badge level">HSK ${t.level}</span>
-        <span class="title">${t.title}</span>
+        <span class="title">${esc(t.title)}</span>
       </div>
       <div class="meta">
-        <span>${t.titleEn}</span>
+        <span>${esc(t.titleEn)}</span>
         <span>${paras.reduce((n, p) => n + p.filter((w) => w.py).length, 0)} words</span>
-        <span>source: ${t.source.name}</span>
+        <span>source: ${esc(t.source.name)}</span>
       </div>
     </a>`;
 }
@@ -247,8 +247,8 @@ function renderRead(id) {
   document.body.classList.toggle("pinyin-on", state.pinyin);
   const done = state.done.includes(text.id);
   const sourceNote = text.license === "原创"
-    ? `本文为原创阅读，主题来自<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>`
-    : `本文改写自：<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>（${text.license}）— 阅读原文`;
+    ? `本文为原创阅读，主题来自<a href="${esc(text.source.url)}" target="_blank" rel="noopener">${esc(text.source.name)}</a>`
+    : `本文改写自：<a href="${esc(text.source.url)}" target="_blank" rel="noopener">${esc(text.source.name)}</a>（${esc(text.license)}）— 阅读原文`;
   document.getElementById("app").innerHTML = `
     ${nav(text.level)}
     <div class="wrap narrow">
@@ -259,12 +259,12 @@ function renderRead(id) {
       </div>
       <article class="reader">
         <header class="reader-head">
-          <h1>${text.title}</h1>
-          <p class="meta">${text.titleEn} · HSK ${text.level}</p>
+          <h1>${esc(text.title)}</h1>
+          <p class="meta">${esc(text.titleEn)} · HSK ${text.level}</p>
           <p class="source">${sourceNote}</p>
         </header>
         <div id="text" class="text"></div>
-        <p id="english" class="english"${state.english ? "" : " hidden"}>${text.english}</p>
+        <p id="english" class="english"${state.english ? "" : " hidden"}>${esc(text.english)}</p>
       </article>
       <aside class="card" id="word-card">
         <p class="hint">Tap a word to see pinyin and meaning.</p>
@@ -295,7 +295,7 @@ function renderRead(id) {
         textEl.querySelectorAll(".word.selected").forEach((el) => el.classList.remove("selected"));
         span.classList.add("selected");
         document.getElementById("word-card").innerHTML =
-          `<p class="zh">${tok.zh}</p><p class="py">${tok.py}</p><p class="en">${tok.en}</p>`;
+          `<p class="zh">${esc(tok.zh)}</p><p class="py">${esc(tok.py)}</p><p class="en">${esc(tok.en)}</p>`;
       };
       p.append(span);
     });
@@ -333,10 +333,10 @@ function renderRead(id) {
   if (text.notes || text.compare || text.sameChar || text.culture) {
     const s = document.createElement("section");
     s.className = "study";
-    if (text.notes) s.innerHTML += `<h2>学一学 · 注释</h2><ul>${text.notes.map((n) => `<li><strong>${n.point}</strong><span>${n.ex}</span></li>`).join("")}</ul>`;
-    if (text.compare) s.innerHTML += `<h2>比一比</h2><p><strong>${text.compare.pair}</strong></p><p>${text.compare.note}</p>`;
-    if (text.sameChar) s.innerHTML += `<h2>同字词 · ${text.sameChar.char}</h2><p>${text.sameChar.words}</p>`;
-    if (text.culture) s.innerHTML += `<h2>文化 · ${text.culture.title}</h2><p>${text.culture.body}</p>`;
+    if (text.notes) s.innerHTML += `<h2>学一学 · 注释</h2><ul>${text.notes.map((n) => `<li><strong>${esc(n.point)}</strong><span>${esc(n.ex)}</span></li>`).join("")}</ul>`;
+    if (text.compare) s.innerHTML += `<h2>比一比</h2><p><strong>${esc(text.compare.pair)}</strong></p><p>${esc(text.compare.note)}</p>`;
+    if (text.sameChar) s.innerHTML += `<h2>同字词 · ${esc(text.sameChar.char)}</h2><p>${esc(text.sameChar.words)}</p>`;
+    if (text.culture) s.innerHTML += `<h2>文化 · ${esc(text.culture.title)}</h2><p>${esc(text.culture.body)}</p>`;
     document.querySelector(".wrap.narrow").append(s);
   }
   if (text.quiz) {

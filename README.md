@@ -6,6 +6,7 @@ Tap-to-gloss graded readers for HSK 4, 5, and 6.
 
 - [HSK 4](https://thanhtoantnt.github.io/mandarin-reading/hsk4/)
 - [HSK4 Textbook](https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/)
+- [HSK4 Workbook](https://thanhtoantnt.github.io/mandarin-reading/hsk4-workbook/)
 - [HSK 5](https://thanhtoantnt.github.io/mandarin-reading/hsk5/)
 - [HSK 6](https://thanhtoantnt.github.io/mandarin-reading/hsk6/)
 

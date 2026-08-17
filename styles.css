@@ -122,6 +122,18 @@ a { color: inherit; text-decoration: none; }
 }
 .row:first-child { border-top: 0; }
 .row:hover { background: #1a1a1a; }
+details.wb {
+  border-top: 1px solid #1e1e1e;
+  padding: 1.15rem 1.5rem;
+}
+details.wb:first-child { border-top: 0; }
+details.wb summary {
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #fff;
+}
+details.wb[open] summary { color: #93bbfd; }
 .row .title {
   font-size: 0.95rem;
   font-weight: 500;

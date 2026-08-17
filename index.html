@@ -9,7 +9,7 @@
   <script>
     window.BASE = (function () {
       var p = location.pathname.replace(/\/index\.html$/, "");
-      var i = p.search(/\/hsk4-textbook(?:\/|$)|\/hsk[456](?:\/|$)/);
+      var i = p.search(/\/hsk4-textbook(?:\/|$)|\/hsk4-workbook(?:\/|$)|\/hsk[456](?:\/|$)/);
       if (i >= 0) return p.slice(0, i);
       var j = p.search(/\/lesson(?:\/|$)/);
       if (j >= 0) return p.slice(0, j);
@@ -23,6 +23,7 @@
   <div id="app"></div>
   <script>
     document.write('<script src="' + window.BASE + '/texts.js?v=20"><\/script>');
+    document.write('<script src="' + window.BASE + '/wb4.js?v=1"><\/script>');
     document.write('<script src="' + window.BASE + '/app.js?v=22"><\/script>');
   </script>
 </body>

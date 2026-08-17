@@ -26,6 +26,7 @@ function href(path) {
 function route() {
   const p = location.pathname.replace(/\/index\.html$/, "");
   if (/\/hsk4-textbook\/?$/.test(p)) return { kind: "textbook" };
+  if (/\/hsk4-workbook\/?$/.test(p)) return { kind: "workbook" };
   const m = p.match(/\/hsk([456])\/?$/);
   if (m) return { kind: "level", level: Number(m[1]) };
   if (/\/lesson\/?$/.test(p)) {
@@ -39,7 +40,8 @@ function nav(active) {
     const on = active === n ? " active" : "";
     return `<a class="${on}" href="${href("/hsk" + n + "/")}">HSK ${n}</a>`;
   }).join("") +
-    `<a class="${active === "tb4" ? " active" : ""}" href="${href("/hsk4-textbook/")}">HSK4 Textbook</a>`;
+    `<a class="${active === "tb4" ? " active" : ""}" href="${href("/hsk4-textbook/")}">HSK4 Textbook</a>` +
+    `<a class="${active === "wb4" ? " active" : ""}" href="${href("/hsk4-workbook/")}">HSK4 Workbook</a>`;
   return `
     <nav class="nav">
       <div class="nav-inner">
@@ -140,7 +142,7 @@ function renderQuiz(qs) {
     const box = document.createElement("div");
     box.className = "q";
     box.innerHTML = `
-      <div class="q-head"><span class="q-no">第${i + 1}题</span><span class="q-type">${QTYPE[q.type]}</span></div>`;
+      <div class="q-head"><span class="q-no">第${i + 1}题</span><span class="q-type">${esc(q.label || QTYPE[q.type])}</span></div>`;
     if (q.q) {
       const t = document.createElement("p");
       t.className = "q-text";
@@ -150,6 +152,7 @@ function renderQuiz(qs) {
 
     if (q.type === "order") {
       let finished = false;
+      const sep = q.sep || "";
       const chosen = [];
       const pool = document.createElement("div");
       pool.className = "chips";
@@ -161,13 +164,13 @@ function renderQuiz(qs) {
         if (finished || chosen.length !== q.words.length) return;
         finished = true;
         done++;
-        if (chosen.join("") === q.a.join("")) {
+        if (chosen.join(sep) === q.a.join(sep)) {
           score++;
           line.classList.add("ok");
           note.textContent = "✓ 对";
         } else {
           line.classList.add("no");
-          note.textContent = "✗ 正确答案：" + q.a.join("");
+          note.textContent = "✗ 正确答案：" + q.a.join(sep);
         }
         finish();
       };
@@ -177,7 +180,7 @@ function renderQuiz(qs) {
           const r = Math.floor(Math.random() * (k + 1));
           [words[k], words[r]] = [words[r], words[k]];
         }
-      } while (new Set(q.words).size > 1 && words.join("") === q.a.join(""));
+      } while (new Set(q.words).size > 1 && words.join(sep) === q.a.join(sep));
       words.forEach((w) => {
         const c = document.createElement("button");
         c.type = "button";
@@ -413,10 +416,27 @@ function renderTextbook() {
     <div class="wrap">
       <div class="page-head">
         <h1>HSK 标准教程 4 上</h1>
-        <p>${list.length} lessons · ${read} read · <a href="${href("/HSK-4A-Textbook.md")}">textbook map</a> · <a href="${href("/HSK-4A-Workbook.md")}">workbook map</a></p>
+        <p>${list.length} lessons · ${read} read · <a href="${href("/HSK-4A-Textbook.md")}">textbook map</a> · <a href="${href("/hsk4-workbook/")}">练习册 drills</a></p>
       </div>
       <div class="list">
         <div>${list.map(lessonRow).join("")}</div>
+      </div>
+    </div>`;
+}
+
+function renderWorkbook() {
+  document.getElementById("app").innerHTML = `
+    ${nav("wb4")}
+    <div class="wrap">
+      <div class="page-head">
+        <h1>HSK 标准教程 4 上 · 练习册</h1>
+        <p>10 课 · 260 题 · <a href="${href("/HSK-4A-Workbook.md")}">workbook map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
+      </div>
+      <p class="meta">题目录自练习册(阅读23–43、书写44–48)。听力1–22需音频、49–50看图造句,未收录;练习册未附答案,本页答案为整理所得;个别扫描不清的词语按课本词表复原,个别选项从略。</p>
+      <div id="wb-drills">${(window.WB4 || []).map((w) => `
+        <details class="wb" id="wb-${w.n}">
+          <summary>第${w.n}课 ${esc(w.title)} · ${w.quiz.length} 题</summary>
+        </details>`).join("")}
       </div>
     </div>
     <div class="wrap narrow">
@@ -425,6 +445,9 @@ function renderTextbook() {
       </div>
       <article class="md" id="wb">Loading…</article>
     </div>`;
+  (window.WB4 || []).forEach((w) => {
+    document.getElementById("wb-" + w.n).append(renderQuiz(w.quiz));
+  });
   fetch(href("/HSK-4A-Workbook.md"))
     .then((r) => r.ok ? r.text() : Promise.reject())
     .then((t) => { document.getElementById("wb").innerHTML = md(t); })
@@ -435,4 +458,5 @@ const r = route();
 if (r.kind === "level") renderLevel(r.level);
 else if (r.kind === "read") renderRead(r.id);
 else if (r.kind === "textbook") renderTextbook();
+else if (r.kind === "workbook") renderWorkbook();
 else renderHome();

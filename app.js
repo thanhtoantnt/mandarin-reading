@@ -118,6 +118,123 @@ function isWord(tok) {
   return Boolean(tok.py || tok.en);
 }
 
+const QTYPE = { choice: "选词填空", tf: "判断正误", order: "连词成句" };
+
+function renderQuiz(qs) {
+  const sec = document.createElement("section");
+  sec.className = "quiz";
+  const h = document.createElement("h2");
+  h.textContent = "练习 · Exercises";
+  sec.append(h);
+  const scoreEl = document.createElement("p");
+  scoreEl.className = "score";
+  let done = 0, score = 0;
+  const finish = () => {
+    if (done === qs.length) scoreEl.textContent = `得分：${score} / ${qs.length}`;
+  };
+
+  qs.forEach((q, i) => {
+    const box = document.createElement("div");
+    box.className = "q";
+    box.innerHTML = `
+      <div class="q-head"><span class="q-no">第${i + 1}题</span><span class="q-type">${QTYPE[q.type]}</span></div>`;
+    if (q.q) {
+      const t = document.createElement("p");
+      t.className = "q-text";
+      t.textContent = q.q;
+      box.append(t);
+    }
+
+    if (q.type === "order") {
+      let finished = false;
+      const chosen = [];
+      const pool = document.createElement("div");
+      pool.className = "chips";
+      const line = document.createElement("div");
+      line.className = "chips ans";
+      const note = document.createElement("p");
+      note.className = "note";
+      const check = () => {
+        if (finished || chosen.length !== q.words.length) return;
+        finished = true;
+        done++;
+        if (chosen.join("") === q.a.join("")) {
+          score++;
+          line.classList.add("ok");
+          note.textContent = "✓ 对";
+        } else {
+          line.classList.add("no");
+          note.textContent = "✗ 正确答案：" + q.a.join("");
+        }
+        finish();
+      };
+      const words = q.words.slice();
+      do {
+        for (let k = words.length - 1; k > 0; k--) {
+          const r = Math.floor(Math.random() * (k + 1));
+          [words[k], words[r]] = [words[r], words[k]];
+        }
+      } while (words.join("") === q.a.join(""));
+      words.forEach((w) => {
+        const c = document.createElement("button");
+        c.type = "button";
+        c.className = "chip";
+        c.textContent = w;
+        c.onclick = () => {
+          if (finished || c.disabled) return;
+          c.disabled = true;
+          c.classList.add("used");
+          chosen.push(w);
+          const a = document.createElement("button");
+          a.type = "button";
+          a.className = "chip";
+          a.textContent = w;
+          a.onclick = () => {
+            if (finished) return;
+            a.remove();
+            chosen.splice(chosen.indexOf(w), 1);
+            c.disabled = false;
+            c.classList.remove("used");
+          };
+          line.append(a);
+          check();
+        };
+        pool.append(c);
+      });
+      box.append(pool, line, note);
+    } else {
+      const opts = q.type === "tf" ? ["对", "不对"] : q.opts;
+      const right = q.type === "tf" ? (q.a ? 0 : 1) : q.a;
+      const wrap = document.createElement("div");
+      wrap.className = "opts";
+      opts.forEach((o, j) => {
+        const b = document.createElement("button");
+        b.type = "button";
+        b.className = "opt";
+        b.textContent = o;
+        b.onclick = () => {
+          if (wrap.classList.contains("done")) return;
+          wrap.classList.add("done");
+          done++;
+          if (j === right) {
+            score++;
+            b.classList.add("ok");
+          } else {
+            b.classList.add("no");
+            wrap.children[right].classList.add("ok");
+          }
+          finish();
+        };
+        wrap.append(b);
+      });
+      box.append(wrap);
+    }
+    sec.append(box);
+  });
+  sec.append(scoreEl);
+  return sec;
+}
+
 function renderRead(id) {
   const text = byId(id);
   if (!text) {
@@ -196,6 +313,9 @@ function renderRead(id) {
     saveState(state);
     renderRead(id);
   };
+  if (text.quiz) {
+    document.querySelector(".wrap.narrow").append(renderQuiz(text.quiz));
+  }
 }
 
 const r = route();

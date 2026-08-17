@@ -237,6 +237,29 @@ body:not(.pinyin-on) rt { display: none; }
 .actions button:hover { background: #2563eb; }
 #progress { color: var(--muted); font-size: 0.875rem; }
 
+.quiz { margin-top: 1.5rem; }
+.quiz h2 { font-size: 1.15rem; color: #fff; margin: 0 0 0.9rem; }
+.q { background: var(--card); border: 1px solid var(--line); border-radius: 0.5rem; padding: 1rem 1.2rem; margin-bottom: 0.8rem; }
+.q-head { display: flex; gap: 0.5rem; align-items: center; margin-bottom: 0.55rem; }
+.q-no { font-size: 0.8rem; color: var(--dim); }
+.q-type { font-size: 0.7rem; padding: 0.1rem 0.45rem; border-radius: 0.25rem; background: rgba(59,130,246,.15); color: #93bbfd; border: 1px solid rgba(59,130,246,.3); }
+.q-text { margin: 0 0 0.7rem; font-size: 1.05rem; color: #f5f5f5; }
+.opts { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.opt { font: inherit; background: #1a1a1a; color: var(--fg); border: 1px solid var(--line); border-radius: 0.375rem; padding: 0.4rem 0.9rem; cursor: pointer; }
+.opt:hover { border-color: #404040; }
+.opts.done .opt { cursor: default; }
+.opt.ok { background: rgba(34,197,94,.2); border-color: rgba(34,197,94,.5); color: #4ade80; }
+.opt.no { background: rgba(239,68,68,.2); border-color: rgba(239,68,68,.5); color: #f87171; }
+.chips { display: flex; flex-wrap: wrap; gap: 0.5rem; min-height: 2.4rem; padding: 0.4rem; border-radius: 0.375rem; margin-bottom: 0.4rem; }
+.chips.ans { border: 1px dashed var(--line); background: #101010; }
+.chips.ans.ok { border-style: solid; border-color: rgba(34,197,94,.5); }
+.chips.ans.no { border-style: solid; border-color: rgba(239,68,68,.5); }
+.chip { font: inherit; background: #1a1a1a; color: var(--fg); border: 1px solid var(--line); border-radius: 0.375rem; padding: 0.35rem 0.8rem; cursor: pointer; }
+.chip:hover { border-color: #404040; }
+.chip.used { opacity: 0.3; cursor: default; }
+.note { margin: 0.35rem 0 0; font-size: 0.9rem; color: var(--muted); }
+.score { color: #4ade80; font-size: 1.05rem; font-weight: 600; }
+
 .back {
   display: inline-block;
   font-size: 0.875rem;

@@ -268,6 +268,21 @@ body:not(.pinyin-on) rt { display: none; }
 }
 .back:hover { color: #93bbfd; }
 
+.md h1 { font-family: "Noto Serif SC", serif; font-size: 1.6rem; color: #fff; margin: 0 0 0.6rem; }
+.md h2 { font-size: 1.15rem; color: #fff; margin: 2rem 0 0.7rem; padding-top: 1.2rem; border-top: 1px solid var(--line); }
+.md h3 { font-size: 1.05rem; color: #fff; margin: 1.6rem 0 0.5rem; }
+.md p { color: var(--muted); line-height: 1.65; margin: 0 0 0.8rem; }
+.md strong { color: #f5f5f5; }
+.md code { font-size: 0.85em; background: #1a1a1a; padding: 0.1em 0.35em; border-radius: 0.25rem; }
+.md ul, .md ol { color: var(--muted); line-height: 1.65; margin: 0 0 0.8rem; padding-left: 1.3rem; }
+.md li { margin: 0.2rem 0; }
+.md hr { border: 0; border-top: 1px solid var(--line); margin: 1.5rem 0; }
+.md table { width: 100%; border-collapse: collapse; margin: 0 0 1rem; font-size: 0.9rem; }
+.md th, .md td { text-align: left; padding: 0.4rem 0.55rem; border-bottom: 1px solid var(--line); }
+.md th { color: var(--muted); font-weight: 500; }
+.md td { color: #e5e5e5; }
+.md em { color: var(--fg); }
+
 @media (max-width: 640px) {
   .stats { grid-template-columns: 1fr; }
   .text { font-size: 1.45rem; }

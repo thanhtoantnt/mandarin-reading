@@ -67,6 +67,7 @@ function lessonRow(t) {
       <div class="meta">
         <span>${t.titleEn}</span>
         <span>${t.paragraphs.reduce((n, p) => n + p.filter((w) => w.py).length, 0)} words</span>
+        <span>source: ${t.source.name}</span>
       </div>
     </a>`;
 }
@@ -137,6 +138,7 @@ function renderRead(id) {
         <header class="reader-head">
           <h1>${text.title}</h1>
           <p class="meta">${text.titleEn} · HSK ${text.level}</p>
+          <p class="source">本文改写自：<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>（${text.license}）— 阅读原文</p>
         </header>
         <div id="text" class="text"></div>
         <p id="english" class="english"${state.english ? "" : " hidden"}>${text.english}</p>

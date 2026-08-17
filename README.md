@@ -36,6 +36,10 @@ Append an object to `TEXTS` in `texts.js`:
 
 Keep words as words (`学生`, not `学` + `生`). Punctuation is a token with empty `py` / `en`.
 
+## Sources
+
+Lesson texts are adapted (simplified and re-worded for the level) from Chinese Wikipedia articles under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Each lesson links to its source article — read the original yourself.
+
 ## Deploy
 
 Push to `main`. GitHub Actions publishes a static export to GitHub Pages, same pattern as [pbt-findings](https://github.com/fermat-hkrc/pbt-findings).

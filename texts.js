@@ -1,5 +1,6885 @@
 const TEXTS = [
   {
+    "id": "beijing",
+    "title": "北京",
+    "titleEn": "Beijing",
+    "level": 4,
+    "source": {
+      "name": "北京 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/北京"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Beijing is the capital of China and the country's political and cultural centre. The city has a history of more than 3,000 years, and five dynasties made it their capital. Famous places include the Forbidden City, the Temple of Heaven and the Summer Palace, and the old city is full of hutongs.",
+    "paragraphs": [
+      [
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "首都",
+          "py": "shǒu dū",
+          "en": "capital (city)"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "全国",
+          "py": "quán guó",
+          "en": "nationwide"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "政治",
+          "py": "zhèng zhì",
+          "en": "politics"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "文化",
+          "py": "wén huà",
+          "en": "cultural"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "教育",
+          "py": "jiào yù",
+          "en": "education"
+        },
+        {
+          "zh": "中心",
+          "py": "zhōng xīn",
+          "en": "centre"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "一座",
+          "py": "yī zuò",
+          "en": "one (city)"
+        },
+        {
+          "zh": "全球",
+          "py": "quán qiú",
+          "en": "global"
+        },
+        {
+          "zh": "城市",
+          "py": "chéng shì",
+          "en": "city"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人口",
+          "py": "rén kǒu",
+          "en": "population"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在世界上",
+          "py": "zài shì jiè shàng",
+          "en": "in the world"
+        },
+        {
+          "zh": "排名",
+          "py": "pái míng",
+          "en": "to rank"
+        },
+        {
+          "zh": "第三",
+          "py": "dì sān",
+          "en": "third"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "3000",
+          "py": "sān qiān",
+          "en": "3000"
+        },
+        {
+          "zh": "多年",
+          "py": "duō nián",
+          "en": "many years"
+        },
+        {
+          "zh": "建",
+          "py": "jiàn",
+          "en": "to build"
+        },
+        {
+          "zh": "城",
+          "py": "chéng",
+          "en": "city"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "历史",
+          "py": "lì shǐ",
+          "en": "history"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "辽",
+          "py": "liáo",
+          "en": "Liao dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "金",
+          "py": "jīn",
+          "en": "gold"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "元",
+          "py": "yuán",
+          "en": "Yuan dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "明",
+          "py": "míng",
+          "en": "Ming dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "清",
+          "py": "qīng",
+          "en": "clear"
+        },
+        {
+          "zh": "五个",
+          "py": "wǔ gè",
+          "en": "five"
+        },
+        {
+          "zh": "朝代",
+          "py": "cháo dài",
+          "en": "dynasty"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "定都",
+          "py": "dìng dū",
+          "en": "to make the capital"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "城里",
+          "py": "chéng lǐ",
+          "en": "in the city"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "名胜古迹",
+          "py": "míng shèng gǔ jì",
+          "en": "scenic and historic sites"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "著名",
+          "py": "zhù míng",
+          "en": "famous"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "古迹",
+          "py": "gǔ jì",
+          "en": "historic site"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "紫禁城",
+          "py": "zǐ jìn chéng",
+          "en": "the Forbidden City"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "天坛",
+          "py": "tiān tán",
+          "en": "Temple of Heaven"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "颐和园",
+          "py": "yí hé yuán",
+          "en": "Summer Palace"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "胡同",
+          "py": "hú tòng",
+          "en": "hutong (alley)"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "四合院",
+          "py": "sì hé yuàn",
+          "en": "courtyard house"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "老",
+          "py": "lǎo",
+          "en": "old"
+        },
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "典型",
+          "py": "diǎn xíng",
+          "en": "typical"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "民居",
+          "py": "mín jū",
+          "en": "traditional dwelling"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "已经",
+          "py": "yǐ jīng",
+          "en": "already"
+        },
+        {
+          "zh": "成为",
+          "py": "chéng wéi",
+          "en": "to become"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "文化",
+          "py": "wén huà",
+          "en": "cultural"
+        },
+        {
+          "zh": "符号",
+          "py": "fú hào",
+          "en": "symbol"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "shanghai",
+    "title": "上海",
+    "titleEn": "Shanghai",
+    "level": 4,
+    "source": {
+      "name": "上海 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/上海"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Shanghai is China's economic, financial and trade centre and one of the most developed cities in the country. It stands on the coast at the mouth of the Yangtze. After the port opened in 1843 and Pudong was developed in 1990, Shanghai grew rapidly and is often called 'the New York of China'.",
+    "paragraphs": [
+      [
+        {
+          "zh": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "经济",
+          "py": "jīng jì",
+          "en": "economy"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "金融",
+          "py": "jīn róng",
+          "en": "finance"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "贸易",
+          "py": "mào yì",
+          "en": "trade"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "航运",
+          "py": "háng yùn",
+          "en": "shipping"
+        },
+        {
+          "zh": "中心",
+          "py": "zhōng xīn",
+          "en": "centre"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "发达",
+          "py": "fā dá",
+          "en": "developed"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "城市",
+          "py": "chéng shì",
+          "en": "city"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "位于",
+          "py": "wèi yú",
+          "en": "to be located at"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "东部",
+          "py": "dōng bù",
+          "en": "eastern part"
+        },
+        {
+          "zh": "海岸线",
+          "py": "hǎi àn xiàn",
+          "en": "coastline"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "中心",
+          "py": "zhōng xīn",
+          "en": "centre"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "长江",
+          "py": "cháng jiāng",
+          "en": "the Yangtze River"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "流入",
+          "py": "liú rù",
+          "en": "to flow into"
+        },
+        {
+          "zh": "大海",
+          "py": "dà hǎi",
+          "en": "the sea"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "1843",
+          "py": "yī bā sì sān",
+          "en": "1843"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "正式",
+          "py": "zhèng shì",
+          "en": "officially"
+        },
+        {
+          "zh": "开埠",
+          "py": "kāi bù",
+          "en": "to open as a treaty port"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "成为",
+          "py": "chéng wéi",
+          "en": "to become"
+        },
+        {
+          "zh": "一个",
+          "py": "yí gè",
+          "en": "one"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "通商口岸",
+          "py": "tōng shāng kǒu àn",
+          "en": "trading port"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "外国人",
+          "py": "wài guó rén",
+          "en": "foreigner"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "各地",
+          "py": "gè dì",
+          "en": "all places"
+        },
+        {
+          "zh": "移民",
+          "py": "yí mín",
+          "en": "migrant"
+        },
+        {
+          "zh": "来到",
+          "py": "lái dào",
+          "en": "to come to"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "带来",
+          "py": "dài lái",
+          "en": "to bring"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "不同",
+          "py": "bù tóng",
+          "en": "different"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "文化",
+          "py": "wén huà",
+          "en": "cultural"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "1990",
+          "py": "yī jiǔ jiǔ líng",
+          "en": "1990"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "浦东",
+          "py": "pǔ dōng",
+          "en": "Pudong (district)"
+        },
+        {
+          "zh": "开发",
+          "py": "kāi fā",
+          "en": "to develop (a region)"
+        },
+        {
+          "zh": "开放",
+          "py": "kāi fàng",
+          "en": "to open"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐ hòu",
+          "en": "after"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "经济",
+          "py": "jīng jì",
+          "en": "economy"
+        },
+        {
+          "zh": "迅猛发展",
+          "py": "xùn měng fā zhǎn",
+          "en": "to develop rapidly"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "现在",
+          "py": "xiàn zài",
+          "en": "now"
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "常",
+          "py": "cháng",
+          "en": "often"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "叫作",
+          "py": "jiào zuò",
+          "en": "to be called"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "纽约",
+          "py": "niǔ yuē",
+          "en": "New York"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "yellow-river",
+    "title": "黄河",
+    "titleEn": "The Yellow River",
+    "level": 4,
+    "source": {
+      "name": "黄河 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/黄河"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "The Yellow River is China's second-longest river, about 5,464 kilometres long. It starts in Qinghai province, flows through nine provinces, and enters the Bohai Sea in Shandong. It carries more sand than any other river in the world, and as the cradle of Chinese civilization it is honoured as the 'mother river'.",
+    "paragraphs": [
+      [
+        {
+          "zh": "黄河",
+          "py": "huáng hé",
+          "en": "the Yellow River"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "第二",
+          "py": "dì èr",
+          "en": "second"
+        },
+        {
+          "zh": "长河",
+          "py": "cháng hé",
+          "en": "long river"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "全长约",
+          "py": "quán zhǎng yuē",
+          "en": "about ... in total length"
+        },
+        {
+          "zh": "5464",
+          "py": "wǔ qiān sì bǎi liù shí sì",
+          "en": "5464"
+        },
+        {
+          "zh": "公里",
+          "py": "gōng lǐ",
+          "en": "kilometer"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "第七",
+          "py": "dì qī",
+          "en": "seventh"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "long"
+        },
+        {
+          "zh": "河流",
+          "py": "hé liú",
+          "en": "river"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "青海省",
+          "py": "qīng hǎi shěng",
+          "en": "Qinghai province"
+        },
+        {
+          "zh": "出发",
+          "py": "chū fā",
+          "en": "to set out"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "穿过",
+          "py": "chuān guò",
+          "en": "to pass through"
+        },
+        {
+          "zh": "9",
+          "py": "jiǔ",
+          "en": "9"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "(measure word)"
+        },
+        {
+          "zh": "省区",
+          "py": "shěng qū",
+          "en": "provinces and regions"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最后",
+          "py": "zuì hòu",
+          "en": "finally"
+        },
+        {
+          "zh": "流入",
+          "py": "liú rù",
+          "en": "to flow into"
+        },
+        {
+          "zh": "渤海",
+          "py": "bó hǎi",
+          "en": "the Bohai Sea"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "黄河",
+          "py": "huáng hé",
+          "en": "the Yellow River"
+        },
+        {
+          "zh": "中游",
+          "py": "zhōng yóu",
+          "en": "middle reaches"
+        },
+        {
+          "zh": "经过",
+          "py": "jīng guò",
+          "en": "to pass through"
+        },
+        {
+          "zh": "黄土高原",
+          "py": "huáng tǔ gāo yuán",
+          "en": "Loess Plateau"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "河水",
+          "py": "hé shuǐ",
+          "en": "river water"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "带",
+          "py": "dài",
+          "en": "to carry"
+        },
+        {
+          "zh": "着",
+          "py": "zhe",
+          "en": "(aspect marker)"
+        },
+        {
+          "zh": "大量",
+          "py": "dà liàng",
+          "en": "in large amounts"
+        },
+        {
+          "zh": "泥沙",
+          "py": "ní shā",
+          "en": "silt"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / above"
+        },
+        {
+          "zh": "含沙量",
+          "py": "hán shā liàng",
+          "en": "silt content"
+        },
+        {
+          "zh": "最高",
+          "py": "zuì gāo",
+          "en": "highest"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "河流",
+          "py": "hé liú",
+          "en": "river"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "河水",
+          "py": "hé shuǐ",
+          "en": "river water"
+        },
+        {
+          "zh": "看起来",
+          "py": "kàn qǐ lái",
+          "en": "to look / appear"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "黄色",
+          "py": "huáng sè",
+          "en": "yellow"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "黄河",
+          "py": "huáng hé",
+          "en": "the Yellow River"
+        },
+        {
+          "zh": "中下游",
+          "py": "zhōng xià yóu",
+          "en": "middle and lower reaches"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中华文明",
+          "py": "zhōng huá wén míng",
+          "en": "Chinese civilization"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "发源地",
+          "py": "fā yuán dì",
+          "en": "place of origin"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "黄河",
+          "py": "huáng hé",
+          "en": "the Yellow River"
+        },
+        {
+          "zh": "叫作",
+          "py": "jiào zuò",
+          "en": "to be called"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "母亲河",
+          "py": "mǔ qīn hé",
+          "en": "mother river"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "yangtze",
+    "title": "长江",
+    "titleEn": "The Yangtze River",
+    "level": 4,
+    "source": {
+      "name": "长江 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/长江"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "The Yangtze is the longest river in Asia and the third-longest in the world, about 6,300 kilometres. It begins on the Qinghai-Tibet Plateau and enters the sea at Shanghai. Together with the Yellow River it is called the mother river of Chinese culture, and the Yangtze delta produces about a quarter of China's GDP.",
+    "paragraphs": [
+      [
+        {
+          "zh": "长江",
+          "py": "cháng jiāng",
+          "en": "the Yangtze River"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "亚洲",
+          "py": "yà zhōu",
+          "en": "Asia"
+        },
+        {
+          "zh": "第一",
+          "py": "dì yī",
+          "en": "first / number one"
+        },
+        {
+          "zh": "长河",
+          "py": "cháng hé",
+          "en": "long river"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "第三",
+          "py": "dì sān",
+          "en": "third"
+        },
+        {
+          "zh": "长河",
+          "py": "cháng hé",
+          "en": "long river"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "全长",
+          "py": "quán zhǎng",
+          "en": "total length"
+        },
+        {
+          "zh": "6300",
+          "py": "liù qiān sān bǎi",
+          "en": "6300"
+        },
+        {
+          "zh": "公里",
+          "py": "gōng lǐ",
+          "en": "kilometer"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "青藏高原",
+          "py": "qīng zàng gāo yuán",
+          "en": "Qinghai-Tibet Plateau"
+        },
+        {
+          "zh": "出发",
+          "py": "chū fā",
+          "en": "to set out"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经过",
+          "py": "jīng guò",
+          "en": "to pass through"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "西南",
+          "py": "xī nán",
+          "en": "southwest"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中部",
+          "py": "zhōng bù",
+          "en": "central part"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "东部",
+          "py": "dōng bù",
+          "en": "eastern part"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最后",
+          "py": "zuì hòu",
+          "en": "finally"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "上海",
+          "py": "shàng hǎi",
+          "en": "Shanghai"
+        },
+        {
+          "zh": "流入",
+          "py": "liú rù",
+          "en": "to flow into"
+        },
+        {
+          "zh": "东海",
+          "py": "dōng hǎi",
+          "en": "East China Sea"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "长江",
+          "py": "cháng jiāng",
+          "en": "the Yangtze River"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "黄河",
+          "py": "huáng hé",
+          "en": "the Yellow River"
+        },
+        {
+          "zh": "并",
+          "py": "bìng",
+          "en": "and"
+        },
+        {
+          "zh": "称为",
+          "py": "chēng wéi",
+          "en": "to call / be known as"
+        },
+        {
+          "zh": "中华文化",
+          "py": "zhōng huá wén huà",
+          "en": "Chinese culture"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "母亲河",
+          "py": "mǔ qīn hé",
+          "en": "mother river"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "江",
+          "py": "jiāng",
+          "en": "river"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "生活",
+          "py": "shēng huó",
+          "en": "life / to live"
+        },
+        {
+          "zh": "着",
+          "py": "zhe",
+          "en": "(aspect marker)"
+        },
+        {
+          "zh": "扬子鳄",
+          "py": "yáng zi è",
+          "en": "Chinese alligator"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "珍稀动物",
+          "py": "zhēn xī dòng wù",
+          "en": "rare animals"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "一部分",
+          "py": "yī bù fèn",
+          "en": "a part"
+        },
+        {
+          "zh": "水域",
+          "py": "shuǐ yù",
+          "en": "body of water"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐ jīng",
+          "en": "already"
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive)"
+        },
+        {
+          "zh": "划",
+          "py": "huà",
+          "en": "to designate"
+        },
+        {
+          "zh": "为",
+          "py": "wèi",
+          "en": "to be / for"
+        },
+        {
+          "zh": "保护区",
+          "py": "bǎo hù qū",
+          "en": "protected area"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "长江三角洲",
+          "py": "cháng jiāng sān jiǎo zhōu",
+          "en": "Yangtze River Delta"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "经济",
+          "py": "jīng jì",
+          "en": "economy"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "发达",
+          "py": "fā dá",
+          "en": "developed"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "地区",
+          "py": "dì qū",
+          "en": "region"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "生产总值",
+          "py": "shēng chǎn zǒng zhí",
+          "en": "gross product (GDP)"
+        },
+        {
+          "zh": "大约",
+          "py": "dà yuē",
+          "en": "approximately"
+        },
+        {
+          "zh": "占",
+          "py": "zhàn",
+          "en": "to account for"
+        },
+        {
+          "zh": "全国",
+          "py": "quán guó",
+          "en": "nationwide"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "四分之一",
+          "py": "sì fēn zhī yī",
+          "en": "one quarter"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "guilin",
+    "title": "桂林",
+    "titleEn": "Guilin",
+    "level": 4,
+    "source": {
+      "name": "桂林 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/桂林"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Guilin is a city in the northeast of Guangxi, famous for its karst mountains and beautiful rivers. The Li River runs through it, and people say 'Guilin's scenery is the finest under heaven'. It is one of China's best-known tourist cities.",
+    "paragraphs": [
+      [
+        {
+          "zh": "桂林",
+          "py": "guì lín",
+          "en": "Guilin"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "广西",
+          "py": "guǎng xī",
+          "en": "Guangxi"
+        },
+        {
+          "zh": "东北部",
+          "py": "dōng běi bù",
+          "en": "northeast part"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "一座",
+          "py": "yī zuò",
+          "en": "one (city)"
+        },
+        {
+          "zh": "城市",
+          "py": "chéng shì",
+          "en": "city"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒu míng",
+          "en": "famous"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "常",
+          "py": "cháng",
+          "en": "often"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to say"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "桂林山水甲天下",
+          "py": "guì lín shān shuǐ jiǎ tiān xià",
+          "en": "Guilin's scenery is the finest under heaven"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "漓江",
+          "py": "lí jiāng",
+          "en": "the Li River"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "桂林",
+          "py": "guì lín",
+          "en": "Guilin"
+        },
+        {
+          "zh": "城中",
+          "py": "chéng zhōng",
+          "en": "in the city"
+        },
+        {
+          "zh": "流过",
+          "py": "liú guò",
+          "en": "to flow past/through"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "江边",
+          "py": "jiāng biān",
+          "en": "riverside"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain"
+        },
+        {
+          "zh": "形状",
+          "py": "xíng zhuàng",
+          "en": "shape"
+        },
+        {
+          "zh": "奇特",
+          "py": "qí tè",
+          "en": "unusual"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "绿绿的",
+          "py": "lǜ lǜ de",
+          "en": "green"
+        },
+        {
+          "zh": "树",
+          "py": "shù",
+          "en": "tree"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "long"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "山上",
+          "py": "shān shàng",
+          "en": "on the mountains"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "风景",
+          "py": "fēng jǐng",
+          "en": "scenery"
+        },
+        {
+          "zh": "像",
+          "py": "xiàng",
+          "en": "to resemble"
+        },
+        {
+          "zh": "一幅",
+          "py": "yī fú",
+          "en": "a (painting)"
+        },
+        {
+          "zh": "画",
+          "py": "huà",
+          "en": "painting"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "每年",
+          "py": "měi nián",
+          "en": "every year"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "游客",
+          "py": "yóu kè",
+          "en": "tourist"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "桂林",
+          "py": "guì lín",
+          "en": "Guilin"
+        },
+        {
+          "zh": "坐船",
+          "py": "zuò chuán",
+          "en": "to take a boat"
+        },
+        {
+          "zh": "游",
+          "py": "yóu",
+          "en": "to tour"
+        },
+        {
+          "zh": "漓江",
+          "py": "lí jiāng",
+          "en": "the Li River"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "拍照",
+          "py": "pāi zhào",
+          "en": "to take photos"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "桂林",
+          "py": "guì lín",
+          "en": "Guilin"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "著名",
+          "py": "zhù míng",
+          "en": "famous"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "旅游",
+          "py": "lǚ yóu",
+          "en": "travel / tourism"
+        },
+        {
+          "zh": "城市",
+          "py": "chéng shì",
+          "en": "city"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "mid-autumn",
+    "title": "中秋节",
+    "titleEn": "Mid-Autumn Festival",
+    "level": 4,
+    "source": {
+      "name": "中秋节 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/中秋节"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "The Mid-Autumn Festival falls on the 15th day of the 8th lunar month, when the moon is fullest. It is a festival of family reunion: people go home, eat mooncakes together and admire the bright moon. Mooncakes are round, like the moon, and symbolise reunion and completeness.",
+    "paragraphs": [
+      [
+        {
+          "zh": "中秋节",
+          "py": "zhōng qiū jié",
+          "en": "Mid-Autumn Festival"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "农历",
+          "py": "nóng lì",
+          "en": "lunar calendar"
+        },
+        {
+          "zh": "八月",
+          "py": "bā yuè",
+          "en": "eighth month"
+        },
+        {
+          "zh": "十五",
+          "py": "shí wǔ",
+          "en": "fifteenth"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "一天",
+          "py": "yī tiān",
+          "en": "one day"
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎn shàng",
+          "en": "evening"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "月亮",
+          "py": "yuè liàng",
+          "en": "the moon"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "圆",
+          "py": "yuán",
+          "en": "round"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "汉字文化圈",
+          "py": "hàn zì wén huà quān",
+          "en": "Sinosphere"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "传统节日",
+          "py": "chuán tǒng jié rì",
+          "en": "traditional festival"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "家人",
+          "py": "jiā rén",
+          "en": "family members"
+        },
+        {
+          "zh": "团聚",
+          "py": "tuán jù",
+          "en": "to reunite"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "日子",
+          "py": "rì zi",
+          "en": "day"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "中秋节",
+          "py": "zhōng qiū jié",
+          "en": "Mid-Autumn Festival"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "习俗",
+          "py": "xí sú",
+          "en": "custom"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "月饼",
+          "py": "yuè bǐng",
+          "en": "mooncake"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "赏月",
+          "py": "shǎng yuè",
+          "en": "to admire the moon"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "月饼",
+          "py": "yuè bǐng",
+          "en": "mooncake"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "圆",
+          "py": "yuán",
+          "en": "round"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "像",
+          "py": "xiàng",
+          "en": "to resemble"
+        },
+        {
+          "zh": "天上",
+          "py": "tiān shàng",
+          "en": "in the sky"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "月亮",
+          "py": "yuè liàng",
+          "en": "the moon"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "意思",
+          "py": "yì si",
+          "en": "meaning"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "团圆",
+          "py": "tuán yuán",
+          "en": "family reunion"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "美满",
+          "py": "měi mǎn",
+          "en": "happy and complete"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "外地",
+          "py": "wài dì",
+          "en": "another city"
+        },
+        {
+          "zh": "工作",
+          "py": "gōng zuò",
+          "en": "to work"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中秋节",
+          "py": "zhōng qiū jié",
+          "en": "Mid-Autumn Festival"
+        },
+        {
+          "zh": "常常",
+          "py": "cháng cháng",
+          "en": "often"
+        },
+        {
+          "zh": "会",
+          "py": "huì",
+          "en": "will / can"
+        },
+        {
+          "zh": "回家",
+          "py": "huí jiā",
+          "en": "to return home"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "家人",
+          "py": "jiā rén",
+          "en": "family members"
+        },
+        {
+          "zh": "一起",
+          "py": "yì qǐ",
+          "en": "together"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "大家",
+          "py": "dà jiā",
+          "en": "everyone"
+        },
+        {
+          "zh": "一边",
+          "py": "yī biān",
+          "en": "while (doing)"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "月饼",
+          "py": "yuè bǐng",
+          "en": "mooncake"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一边",
+          "py": "yī biān",
+          "en": "while (doing)"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to watch"
+        },
+        {
+          "zh": "月亮",
+          "py": "yuè liàng",
+          "en": "the moon"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "开心",
+          "py": "kāi xīn",
+          "en": "happy"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "dragon-boat",
+    "title": "端午节",
+    "titleEn": "Dragon Boat Festival",
+    "level": 4,
+    "source": {
+      "name": "端午节 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/端午节"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "The Dragon Boat Festival is on the 5th day of the 5th lunar month. People race dragon boats and eat zongzi to remember Qu Yuan, the patriotic poet of Chu who drowned himself in a river. In 2009 it became the first Chinese festival inscribed on UNESCO's intangible heritage list.",
+    "paragraphs": [
+      [
+        {
+          "zh": "端午节",
+          "py": "duān wǔ jié",
+          "en": "Dragon Boat Festival"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "农历",
+          "py": "nóng lì",
+          "en": "lunar calendar"
+        },
+        {
+          "zh": "五月",
+          "py": "wǔ yuè",
+          "en": "fifth month"
+        },
+        {
+          "zh": "初五",
+          "py": "chū wǔ",
+          "en": "fifth day"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "华人",
+          "py": "huá rén",
+          "en": "Chinese people"
+        },
+        {
+          "zh": "四大",
+          "py": "sì dà",
+          "en": "four great"
+        },
+        {
+          "zh": "节日",
+          "py": "jié rì",
+          "en": "festival"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这天",
+          "py": "zhè tiān",
+          "en": "this day"
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "赛龙舟",
+          "py": "sài lóng zhōu",
+          "en": "dragon boat racing"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "粽子",
+          "py": "zòng zi",
+          "en": "zongzi (sticky rice dumpling)"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "热闹",
+          "py": "rè nào",
+          "en": "bustling"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "根据",
+          "py": "gēn jù",
+          "en": "according to"
+        },
+        {
+          "zh": "传说",
+          "py": "chuán shuō",
+          "en": "legend"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "古代",
+          "py": "gǔ dài",
+          "en": "ancient"
+        },
+        {
+          "zh": "楚国",
+          "py": "chǔ guó",
+          "en": "the State of Chu"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "爱国诗人",
+          "py": "ài guó shī rén",
+          "en": "patriotic poet"
+        },
+        {
+          "zh": "屈原",
+          "py": "qū yuán",
+          "en": "Qu Yuan (poet)"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "一天",
+          "py": "yī tiān",
+          "en": "one day"
+        },
+        {
+          "zh": "跳江",
+          "py": "tiào jiāng",
+          "en": "to jump into a river"
+        },
+        {
+          "zh": "而",
+          "py": "ér",
+          "en": "and / then"
+        },
+        {
+          "zh": "死",
+          "py": "sǐ",
+          "en": "to die"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "为了",
+          "py": "wèi le",
+          "en": "in order to"
+        },
+        {
+          "zh": "纪念",
+          "py": "jì niàn",
+          "en": "to commemorate"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "端午节",
+          "py": "duān wǔ jié",
+          "en": "Dragon Boat Festival"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "习俗",
+          "py": "xí sú",
+          "en": "custom"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "2009",
+          "py": "èr líng líng jiǔ",
+          "en": "2009"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "联合国教科文组织",
+          "py": "lián hé guó jiào kē wén zǔ zhī",
+          "en": "UNESCO"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "端午节",
+          "py": "duān wǔ jié",
+          "en": "Dragon Boat Festival"
+        },
+        {
+          "zh": "列入",
+          "py": "liè rù",
+          "en": "to be listed as"
+        },
+        {
+          "zh": "人类非物质文化遗产",
+          "py": "rén lèi fēi wù zhì wén huà yí chǎn",
+          "en": "intangible cultural heritage of humanity"
+        },
+        {
+          "zh": "名录",
+          "py": "míng lù",
+          "en": "list / register"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "成为",
+          "py": "chéng wéi",
+          "en": "to become"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "第一个",
+          "py": "dì yí gè",
+          "en": "the first"
+        },
+        {
+          "zh": "入选",
+          "py": "rù xuǎn",
+          "en": "to be selected"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "非遗",
+          "py": "fēi yí",
+          "en": "intangible heritage (abbr.)"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "节日",
+          "py": "jié rì",
+          "en": "festival"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "characters",
+    "title": "汉字",
+    "titleEn": "Chinese Characters",
+    "level": 4,
+    "source": {
+      "name": "汉字 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/汉字"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Chinese characters are the writing system of the Chinese language and the oldest script still widely used today. They grew out of pictures — the earliest mature form is the oracle-bone script of the Shang dynasty. Modern dictionaries collect over 100,000 characters, but knowing about 2,500–3,000 is enough to read a newspaper.",
+    "paragraphs": [
+      [
+        {
+          "zh": "汉字",
+          "py": "hàn zì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "书写",
+          "py": "shū xiě",
+          "en": "to write"
+        },
+        {
+          "zh": "汉语",
+          "py": "hàn yǔ",
+          "en": "the Chinese language"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "文字",
+          "py": "wén zì",
+          "en": "writing system"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / above"
+        },
+        {
+          "zh": "现在",
+          "py": "xiàn zài",
+          "en": "now"
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "still"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "广泛",
+          "py": "guǎng fàn",
+          "en": "widely"
+        },
+        {
+          "zh": "使用",
+          "py": "shǐ yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "古老",
+          "py": "gǔ lǎo",
+          "en": "ancient"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "文字",
+          "py": "wén zì",
+          "en": "writing system"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "最早",
+          "py": "zuì zǎo",
+          "en": "earliest"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "成熟",
+          "py": "chéng shú",
+          "en": "mature"
+        },
+        {
+          "zh": "汉字",
+          "py": "hàn zì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "商朝",
+          "py": "shāng cháo",
+          "en": "Shang dynasty"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "甲骨文",
+          "py": "jiǎ gǔ wén",
+          "en": "oracle-bone script"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "刻",
+          "py": "kè",
+          "en": "to carve"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "乌龟壳",
+          "py": "wū guī ké",
+          "en": "turtle shell"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "动物",
+          "py": "dòng wù",
+          "en": "animal"
+        },
+        {
+          "zh": "骨头",
+          "py": "gǔ tou",
+          "en": "bone"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / above"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "汉字",
+          "py": "hàn zì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "图画",
+          "py": "tú huà",
+          "en": "picture"
+        },
+        {
+          "zh": "慢慢",
+          "py": "màn màn",
+          "en": "slowly"
+        },
+        {
+          "zh": "发展",
+          "py": "fā zhǎn",
+          "en": "to develop"
+        },
+        {
+          "zh": "成",
+          "py": "chéng",
+          "en": "into"
+        },
+        {
+          "zh": "今天",
+          "py": "jīn tiān",
+          "en": "today"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "样子",
+          "py": "yàng zi",
+          "en": "appearance"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "字典",
+          "py": "zì diǎn",
+          "en": "dictionary"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "收",
+          "py": "shōu",
+          "en": "to include"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "超过",
+          "py": "chāo guò",
+          "en": "to exceed"
+        },
+        {
+          "zh": "10",
+          "py": "yī shí",
+          "en": "10"
+        },
+        {
+          "zh": "万个",
+          "py": "wàn gè",
+          "en": "ten thousand (counter)"
+        },
+        {
+          "zh": "汉字",
+          "py": "hàn zì",
+          "en": "Chinese characters"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不过",
+          "py": "bù guò",
+          "en": "however"
+        },
+        {
+          "zh": "认识",
+          "py": "rèn shí",
+          "en": "to know (characters)"
+        },
+        {
+          "zh": "2500",
+          "py": "èr wǔ líng líng",
+          "en": "2500"
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "until / to arrive"
+        },
+        {
+          "zh": "3000",
+          "py": "sān qiān",
+          "en": "3000"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "(measure word)"
+        },
+        {
+          "zh": "常用字",
+          "py": "cháng yòng zì",
+          "en": "common characters"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "zh": "读懂",
+          "py": "dú dǒng",
+          "en": "to understand by reading"
+        },
+        {
+          "zh": "大部分",
+          "py": "dà bù fèn",
+          "en": "most (of it)"
+        },
+        {
+          "zh": "报纸",
+          "py": "bào zhǐ",
+          "en": "newspaper"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "文章",
+          "py": "wén zhāng",
+          "en": "article"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "chopsticks",
+    "title": "筷子",
+    "titleEn": "Chopsticks",
+    "level": 4,
+    "source": {
+      "name": "筷子 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/筷子"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Chopsticks are a eating tool that began in China. People hold two thin sticks in one hand to pick up food and carry it to the mouth. They spread from China across East Asia, and most are made of bamboo or wood.",
+    "paragraphs": [
+      [
+        {
+          "zh": "筷子",
+          "py": "kuài zi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "一种",
+          "py": "yī zhǒng",
+          "en": "a kind of"
+        },
+        {
+          "zh": "起源于",
+          "py": "qǐ yuán yú",
+          "en": "to originate in"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "餐具",
+          "py": "cān jù",
+          "en": "tableware"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "一只",
+          "py": "yī zhī",
+          "en": "one"
+        },
+        {
+          "zh": "手",
+          "py": "shǒu",
+          "en": "hand"
+        },
+        {
+          "zh": "拿",
+          "py": "ná",
+          "en": "to hold"
+        },
+        {
+          "zh": "两根",
+          "py": "liǎng gēn",
+          "en": "two (sticks)"
+        },
+        {
+          "zh": "小",
+          "py": "xiǎo",
+          "en": "small"
+        },
+        {
+          "zh": "棍子",
+          "py": "gùn zi",
+          "en": "stick"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish"
+        },
+        {
+          "zh": "夹起来",
+          "py": "jiā qǐ lái",
+          "en": "pick up"
+        },
+        {
+          "zh": "送",
+          "py": "sòng",
+          "en": "to send"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "to enter"
+        },
+        {
+          "zh": "嘴里",
+          "py": "zuǐ lǐ",
+          "en": "into the mouth"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "使用",
+          "py": "shǐ yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuài zi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "历史",
+          "py": "lì shǐ",
+          "en": "history"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐ jīng",
+          "en": "already"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "几千年",
+          "py": "jǐ qiān nián",
+          "en": "several thousand years"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最早",
+          "py": "zuì zǎo",
+          "en": "earliest"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuài zi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "大多",
+          "py": "dà duō",
+          "en": "mostly"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "竹子",
+          "py": "zhú zi",
+          "en": "bamboo"
+        },
+        {
+          "zh": "或",
+          "py": "huò",
+          "en": "or"
+        },
+        {
+          "zh": "木头",
+          "py": "mù tou",
+          "en": "wood"
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "acting"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "后来",
+          "py": "hòu lái",
+          "en": "later"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuài zi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "传到",
+          "py": "chuán dào",
+          "en": "to spread to"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "日本",
+          "py": "rì běn",
+          "en": "Japan"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "韩国",
+          "py": "hán guó",
+          "en": "South Korea"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "邻近",
+          "py": "lín jìn",
+          "en": "neighbouring"
+        },
+        {
+          "zh": "国家",
+          "py": "guó jiā",
+          "en": "country"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "今天",
+          "py": "jīn tiān",
+          "en": "today"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东亚",
+          "py": "dōng yà",
+          "en": "East Asia"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "东南亚",
+          "py": "dōng nán yà",
+          "en": "Southeast Asia"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "每天",
+          "py": "měi tiān",
+          "en": "every day"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "筷子",
+          "py": "kuài zi",
+          "en": "chopsticks"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "noodles",
+    "title": "面条",
+    "titleEn": "Noodles",
+    "level": 4,
+    "source": {
+      "name": "面条 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/面条"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Noodles are a food made from grain flour and water, shaped into long strips and boiled. China is their birthplace: in 2005 archaeologists found 4,000-year-old noodles in Qinghai. There are countless kinds — pulled noodles, knife-cut noodles, rice noodles — and they are loved all over the country.",
+    "paragraphs": [
+      [
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "面粉",
+          "py": "miàn fěn",
+          "en": "flour"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "水",
+          "py": "shuǐ",
+          "en": "water"
+        },
+        {
+          "zh": "做成",
+          "py": "zuò chéng",
+          "en": "to be made into"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "一种",
+          "py": "yī zhǒng",
+          "en": "a kind of"
+        },
+        {
+          "zh": "食品",
+          "py": "shí pǐn",
+          "en": "food"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "长",
+          "py": "zhǎng",
+          "en": "long"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "细",
+          "py": "xì",
+          "en": "thin"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "煮",
+          "py": "zhǔ",
+          "en": "to boil"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐ hòu",
+          "en": "after"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "一般",
+          "py": "yì bān",
+          "en": "generally"
+        },
+        {
+          "zh": "认为",
+          "py": "rèn wéi",
+          "en": "to think"
+        },
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "起源于",
+          "py": "qǐ yuán yú",
+          "en": "to originate in"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "2005",
+          "py": "èr líng líng wǔ",
+          "en": "2005"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "考古学家",
+          "py": "kǎo gǔ xué jiā",
+          "en": "archaeologist"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "青海",
+          "py": "qīng hǎi",
+          "en": "Qinghai"
+        },
+        {
+          "zh": "发现",
+          "py": "fā xiàn",
+          "en": "to discover"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "一碗",
+          "py": "yī wǎn",
+          "en": "a bowl of"
+        },
+        {
+          "zh": "4000",
+          "py": "sì qiān",
+          "en": "4000"
+        },
+        {
+          "zh": "年前",
+          "py": "nián qián",
+          "en": "years ago"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "世界",
+          "py": "shì jiè",
+          "en": "world"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / above"
+        },
+        {
+          "zh": "最早",
+          "py": "zuì zǎo",
+          "en": "earliest"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "各地",
+          "py": "gè dì",
+          "en": "all places"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "种类",
+          "py": "zhǒng lèi",
+          "en": "variety"
+        },
+        {
+          "zh": "特别",
+          "py": "tè bié",
+          "en": "especially"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "many"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "比如",
+          "py": "bǐ rú",
+          "en": "for example"
+        },
+        {
+          "zh": "拉面",
+          "py": "lā miàn",
+          "en": "hand-pulled noodles"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "刀削面",
+          "py": "dāo xiāo miàn",
+          "en": "knife-cut noodles"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "米粉",
+          "py": "mǐ fěn",
+          "en": "rice noodles"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "面条",
+          "py": "miàn tiáo",
+          "en": "noodles"
+        },
+        {
+          "zh": "好吃",
+          "py": "hǎo chī",
+          "en": "tasty"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "简单",
+          "py": "jiǎn dān",
+          "en": "simple"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "全国",
+          "py": "quán guó",
+          "en": "nationwide"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "流行",
+          "py": "liú xíng",
+          "en": "popular"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "kungfu",
+    "title": "中国功夫",
+    "titleEn": "Kung Fu",
+    "level": 4,
+    "source": {
+      "name": "功夫 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/功夫"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Kung fu is the traditional martial art of China. It asks not only for skill in fighting but also for good character — training both body and heart. Bruce Lee made the word 'Kung Fu' famous around the world, and it even entered English dictionaries.",
+    "paragraphs": [
+      [
+        {
+          "zh": "功夫",
+          "py": "gōng fu",
+          "en": "kung fu"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "传统",
+          "py": "chuán tǒng",
+          "en": "traditional"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "武术",
+          "py": "wǔ shù",
+          "en": "martial arts"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "只是",
+          "py": "zhǐ shì",
+          "en": "is only"
+        },
+        {
+          "zh": "一种",
+          "py": "yī zhǒng",
+          "en": "a kind of"
+        },
+        {
+          "zh": "搏击",
+          "py": "bó jī",
+          "en": "combat"
+        },
+        {
+          "zh": "运动",
+          "py": "yùn dòng",
+          "en": "sport"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "still"
+        },
+        {
+          "zh": "讲究",
+          "py": "jiǎng jiū",
+          "en": "to emphasize"
+        },
+        {
+          "zh": "刚柔并济",
+          "py": "gāng róu bìng jì",
+          "en": "combining hardness and softness"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "内外兼修",
+          "py": "nèi wài jiān xiū",
+          "en": "training body and mind"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "练功夫",
+          "py": "liàn gōng fu",
+          "en": "to practise kung fu"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "不但",
+          "py": "bù dàn",
+          "en": "not only"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "to need / must"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "武艺",
+          "py": "wǔ yì",
+          "en": "martial skill"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "to need / must"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "好",
+          "py": "hǎo",
+          "en": "good"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "品德",
+          "py": "pǐn dé",
+          "en": "moral character"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to say"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "习武先习德",
+          "py": "xí wǔ xiān xí dé",
+          "en": "virtue before martial skill"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "20",
+          "py": "èr shí",
+          "en": "20"
+        },
+        {
+          "zh": "世纪",
+          "py": "shì jì",
+          "en": "century"
+        },
+        {
+          "zh": "六七十年代",
+          "py": "liù qī shí nián dài",
+          "en": "the 60s and 70s"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "李小龙",
+          "py": "lǐ xiǎo lóng",
+          "en": "Bruce Lee"
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "功夫",
+          "py": "gōng fu",
+          "en": "kung fu"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "两个",
+          "py": "liǎng gè",
+          "en": "two"
+        },
+        {
+          "zh": "字",
+          "py": "zì",
+          "en": "character"
+        },
+        {
+          "zh": "发扬光大",
+          "py": "fā yáng guāng dà",
+          "en": "to carry forward"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "因为",
+          "py": "yīn wèi",
+          "en": "because"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "he"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "影响",
+          "py": "yǐng xiǎng",
+          "en": "influence"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "英文词典",
+          "py": "yīng wén cí diǎn",
+          "en": "English dictionaries"
+        },
+        {
+          "zh": "里",
+          "py": "lǐ",
+          "en": "inside"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "一个",
+          "py": "yí gè",
+          "en": "one"
+        },
+        {
+          "zh": "新词",
+          "py": "xīn cí",
+          "en": "new word"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "Kungfu",
+          "py": "Kungfu",
+          "en": "Kungfu"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "opera",
+    "title": "京剧",
+    "titleEn": "Peking Opera",
+    "level": 4,
+    "source": {
+      "name": "京剧 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/京剧"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Peking opera took shape in Beijing in the 19th century by merging Anhui and Han styles of opera. With its singing, colourful costumes and painted faces, it is honoured as one of China's national treasures. In 2010 it was inscribed on UNESCO's intangible cultural heritage list.",
+    "paragraphs": [
+      [
+        {
+          "zh": "京剧",
+          "py": "jīng jù",
+          "en": "Peking opera"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "称为",
+          "py": "chēng wéi",
+          "en": "to call / be known as"
+        },
+        {
+          "zh": "京戏",
+          "py": "jīng xì",
+          "en": "Beijing opera"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "代表性",
+          "py": "dài biǎo xìng",
+          "en": "representative"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "戏曲",
+          "py": "xì qǔ",
+          "en": "Chinese opera"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive)"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "视为",
+          "py": "shì wèi",
+          "en": "to regard as"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "国粹",
+          "py": "guó cuì",
+          "en": "national treasure"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "19",
+          "py": "yī shí jiǔ",
+          "en": "19"
+        },
+        {
+          "zh": "世纪",
+          "py": "shì jì",
+          "en": "century"
+        },
+        {
+          "zh": "中期",
+          "py": "zhōng qī",
+          "en": "mid-"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "徽剧",
+          "py": "huī jù",
+          "en": "Anhui opera"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "汉",
+          "py": "hàn",
+          "en": "Han dynasty"
+        },
+        {
+          "zh": "调",
+          "py": "diào",
+          "en": "tune"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "北京",
+          "py": "běi jīng",
+          "en": "Beijing"
+        },
+        {
+          "zh": "融合",
+          "py": "róng hé",
+          "en": "to merge"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "吸收",
+          "py": "xī shōu",
+          "en": "to absorb"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "别的",
+          "py": "bié de",
+          "en": "other"
+        },
+        {
+          "zh": "艺术",
+          "py": "yì shù",
+          "en": "art"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "优点",
+          "py": "yōu diǎn",
+          "en": "strengths"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "慢慢",
+          "py": "màn màn",
+          "en": "slowly"
+        },
+        {
+          "zh": "形成",
+          "py": "xíng chéng",
+          "en": "to form"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed action)"
+        },
+        {
+          "zh": "京剧",
+          "py": "jīng jù",
+          "en": "Peking opera"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "演员",
+          "py": "yǎn yuán",
+          "en": "performer"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "to use"
+        },
+        {
+          "zh": "唱",
+          "py": "chàng",
+          "en": "singing"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "念",
+          "py": "niàn",
+          "en": "recitation"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "acting"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "打",
+          "py": "dǎ",
+          "en": "acrobatic fighting"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "表演",
+          "py": "biǎo yǎn",
+          "en": "to perform"
+        },
+        {
+          "zh": "故事",
+          "py": "gù shì",
+          "en": "story"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "京剧",
+          "py": "jīng jù",
+          "en": "Peking opera"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "脸谱",
+          "py": "liǎn pǔ",
+          "en": "facial makeup pattern"
+        },
+        {
+          "zh": "颜色",
+          "py": "yán sè",
+          "en": "color"
+        },
+        {
+          "zh": "鲜艳",
+          "py": "xiān yàn",
+          "en": "bright"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不同",
+          "py": "bù tóng",
+          "en": "different"
+        },
+        {
+          "zh": "颜色",
+          "py": "yán sè",
+          "en": "color"
+        },
+        {
+          "zh": "代表",
+          "py": "dài biǎo",
+          "en": "to represent"
+        },
+        {
+          "zh": "不同",
+          "py": "bù tóng",
+          "en": "different"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "人物性格",
+          "py": "rén wù xìng gé",
+          "en": "character's personality"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "2010",
+          "py": "èr líng yī líng",
+          "en": "2010"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "京剧",
+          "py": "jīng jù",
+          "en": "Peking opera"
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive)"
+        },
+        {
+          "zh": "列入",
+          "py": "liè rù",
+          "en": "to be listed as"
+        },
+        {
+          "zh": "人类非物质文化遗产代表作名录",
+          "py": "rén lèi fēi wù zhì wén huà yí chǎn dài biǎo zuò míng lù",
+          "en": "Representative List of Intangible Cultural Heritage"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "west-lake",
+    "title": "西湖",
+    "titleEn": "West Lake",
+    "level": 4,
+    "source": {
+      "name": "西湖 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/西湖"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "West Lake lies west of the old city of Hangzhou, surrounded by hills on three sides. Su Causeway and Bai Causeway cross the water, and pagodas and small islands complete the famous view. In 2011 'West Lake Cultural Landscape' joined the UNESCO World Heritage list.",
+    "paragraphs": [
+      [
+        {
+          "zh": "西湖",
+          "py": "xī hú",
+          "en": "West Lake"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "浙江省",
+          "py": "zhè jiāng shěng",
+          "en": "Zhejiang province"
+        },
+        {
+          "zh": "杭州市",
+          "py": "háng zhōu shì",
+          "en": "Hangzhou city"
+        },
+        {
+          "zh": "老城",
+          "py": "lǎo chéng",
+          "en": "old town"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "西边",
+          "py": "xī biān",
+          "en": "west side"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒu míng",
+          "en": "famous"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "淡水湖",
+          "py": "dàn shuǐ hú",
+          "en": "freshwater lake"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "东边",
+          "py": "dōng biān",
+          "en": "east side"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "市区",
+          "py": "shì qū",
+          "en": "urban area"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其他",
+          "py": "qí tā",
+          "en": "other"
+        },
+        {
+          "zh": "三面",
+          "py": "sān miàn",
+          "en": "three sides"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "山",
+          "py": "shān",
+          "en": "mountain"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "湖上",
+          "py": "hú shàng",
+          "en": "on the lake"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "苏堤",
+          "py": "sū dī",
+          "en": "Su Causeway"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "白堤",
+          "py": "bái dī",
+          "en": "Bai Causeway"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "几个",
+          "py": "jǐ gè",
+          "en": "a few"
+        },
+        {
+          "zh": "小岛",
+          "py": "xiǎo dǎo",
+          "en": "small island"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "湖边",
+          "py": "hú biān",
+          "en": "lakeside"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "雷峰塔",
+          "py": "léi fēng tǎ",
+          "en": "Leifeng Pagoda"
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒu míng",
+          "en": "famous"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "古人",
+          "py": "gǔ rén",
+          "en": "the ancients"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "to say"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "上有天堂",
+          "py": "shàng yǒu tiān táng",
+          "en": "above there is heaven"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "下有苏杭",
+          "py": "xià yǒu sū háng",
+          "en": "below there are Suzhou and Hangzhou"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "2011",
+          "py": "èr líng yī yī",
+          "en": "2011"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "6",
+          "py": "liù",
+          "en": "6"
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "en": "month"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "杭州",
+          "py": "háng zhōu",
+          "en": "Hangzhou"
+        },
+        {
+          "zh": "西湖",
+          "py": "xī hú",
+          "en": "West Lake"
+        },
+        {
+          "zh": "文化景观",
+          "py": "wén huà jǐng guān",
+          "en": "cultural landscape"
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive)"
+        },
+        {
+          "zh": "列入",
+          "py": "liè rù",
+          "en": "to be listed as"
+        },
+        {
+          "zh": "世界遗产名录",
+          "py": "shì jiè yí chǎn míng lù",
+          "en": "World Heritage List"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每年",
+          "py": "měi nián",
+          "en": "every year"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "大量",
+          "py": "dà liàng",
+          "en": "in large amounts"
+        },
+        {
+          "zh": "游客",
+          "py": "yóu kè",
+          "en": "tourist"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "西湖",
+          "py": "xī hú",
+          "en": "West Lake"
+        },
+        {
+          "zh": "散步",
+          "py": "sàn bù",
+          "en": "to take a walk"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "坐船",
+          "py": "zuò chuán",
+          "en": "to take a boat"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "拍照",
+          "py": "pāi zhào",
+          "en": "to take photos"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "xian",
+    "title": "西安",
+    "titleEn": "Xi'an",
+    "level": 4,
+    "source": {
+      "name": "西安 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/西安"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Xi'an, anciently called Chang'an, is the capital of Shaanxi. Thirteen dynasties, among them Zhou, Qin, Han and Tang, built their capitals here, and it was the starting point of the Silk Road. Near the city stands the Terracotta Army of the First Qin Emperor, and its Ming-era city wall still stands complete.",
+    "paragraphs": [
+      [
+        {
+          "zh": "西安",
+          "py": "xī ān",
+          "en": "Xi'an"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "陕西省",
+          "py": "shǎn xī shěng",
+          "en": "Shaanxi province"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "省会",
+          "py": "shěng huì",
+          "en": "provincial capital"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "古时候",
+          "py": "gǔ shí hòu",
+          "en": "in ancient times"
+        },
+        {
+          "zh": "叫",
+          "py": "jiào",
+          "en": "to be called"
+        },
+        {
+          "zh": "长安",
+          "py": "cháng ān",
+          "en": "Chang'an"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "3100",
+          "py": "sān qiān yī bǎi",
+          "en": "3100"
+        },
+        {
+          "zh": "多年",
+          "py": "duō nián",
+          "en": "many years"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "建",
+          "py": "jiàn",
+          "en": "to build"
+        },
+        {
+          "zh": "城",
+          "py": "chéng",
+          "en": "city"
+        },
+        {
+          "zh": "史",
+          "py": "shǐ",
+          "en": "history"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "周",
+          "py": "zhōu",
+          "en": "Zhou dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "秦",
+          "py": "qín",
+          "en": "Qin dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "汉",
+          "py": "hàn",
+          "en": "Han dynasty"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "唐",
+          "py": "táng",
+          "en": "Tang dynasty"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "朝代",
+          "py": "cháo dài",
+          "en": "dynasty"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "建都",
+          "py": "jiàn dū",
+          "en": "to found a capital"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "西安",
+          "py": "xī ān",
+          "en": "Xi'an"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "陆上",
+          "py": "lù shàng",
+          "en": "overland"
+        },
+        {
+          "zh": "丝绸之路",
+          "py": "sī chóu zhī lù",
+          "en": "the Silk Road"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "起点",
+          "py": "qǐ diǎn",
+          "en": "starting point"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "秦始皇陵",
+          "py": "qín shǐ huáng líng",
+          "en": "Mausoleum of the First Qin Emperor"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "兵马俑",
+          "py": "bīng mǎ yǒng",
+          "en": "Terracotta Army"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "西安",
+          "py": "xī ān",
+          "en": "Xi'an"
+        },
+        {
+          "zh": "附近",
+          "py": "fù jìn",
+          "en": "nearby"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每年",
+          "py": "měi nián",
+          "en": "every year"
+        },
+        {
+          "zh": "吸引",
+          "py": "xī yǐn",
+          "en": "to attract"
+        },
+        {
+          "zh": "大量",
+          "py": "dà liàng",
+          "en": "in large amounts"
+        },
+        {
+          "zh": "游客",
+          "py": "yóu kè",
+          "en": "tourist"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "西安",
+          "py": "xī ān",
+          "en": "Xi'an"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "老城墙",
+          "py": "lǎo chéng qiáng",
+          "en": "old city wall"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "明朝",
+          "py": "míng cháo",
+          "en": "Ming dynasty"
+        },
+        {
+          "zh": "修建",
+          "py": "xiū jiàn",
+          "en": "to build"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "到",
+          "py": "dào",
+          "en": "until / to arrive"
+        },
+        {
+          "zh": "今天",
+          "py": "jīn tiān",
+          "en": "today"
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "still"
+        },
+        {
+          "zh": "保存",
+          "py": "bǎo cún",
+          "en": "to preserve"
+        },
+        {
+          "zh": "得",
+          "py": "dé",
+          "en": "to get"
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "完整",
+          "py": "wán zhěng",
+          "en": "intact"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人们",
+          "py": "rén men",
+          "en": "people"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "城墙",
+          "py": "chéng qiáng",
+          "en": "city wall"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "on / above"
+        },
+        {
+          "zh": "骑",
+          "py": "qí",
+          "en": "to ride"
+        },
+        {
+          "zh": "自行车",
+          "py": "zì xíng chē",
+          "en": "bicycle"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to watch"
+        },
+        {
+          "zh": "整个",
+          "py": "zhěng gè",
+          "en": "the whole"
+        },
+        {
+          "zh": "老城",
+          "py": "lǎo chéng",
+          "en": "old town"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "chengdu",
+    "title": "成都",
+    "titleEn": "Chengdu",
+    "level": 4,
+    "source": {
+      "name": "成都 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/成都"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Chengdu, nicknamed the Hibiscus City, is the capital of Sichuan in the west of the Sichuan Basin. It has over 3,000 years of history and was the capital of the ancient Shu kingdom. Life here is famously relaxed: teahouses, spicy hotpot and giant pandas are its symbols.",
+    "paragraphs": [
+      [
+        {
+          "zh": "成都",
+          "py": "chéng dū",
+          "en": "Chengdu"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "四川省",
+          "py": "sì chuān shěng",
+          "en": "Sichuan province"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "省会",
+          "py": "shěng huì",
+          "en": "provincial capital"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "别称",
+          "py": "bié chēng",
+          "en": "alias"
+        },
+        {
+          "zh": "蓉城",
+          "py": "róng chéng",
+          "en": "Hibiscus City"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "位于",
+          "py": "wèi yú",
+          "en": "to be located at"
+        },
+        {
+          "zh": "四川盆地",
+          "py": "sì chuān pén dì",
+          "en": "Sichuan Basin"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "西部",
+          "py": "xī bù",
+          "en": "western part"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "超过",
+          "py": "chāo guò",
+          "en": "to exceed"
+        },
+        {
+          "zh": "3000",
+          "py": "sān qiān",
+          "en": "3000"
+        },
+        {
+          "zh": "年",
+          "py": "nián",
+          "en": "year"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "建",
+          "py": "jiàn",
+          "en": "to build"
+        },
+        {
+          "zh": "城",
+          "py": "chéng",
+          "en": "city"
+        },
+        {
+          "zh": "史",
+          "py": "shǐ",
+          "en": "history"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "成都",
+          "py": "chéng dū",
+          "en": "Chengdu"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "研究",
+          "py": "yán jiū",
+          "en": "research"
+        },
+        {
+          "zh": "大熊猫",
+          "py": "dà xióng māo",
+          "en": "giant panda"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "城市",
+          "py": "chéng shì",
+          "en": "city"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "to watch"
+        },
+        {
+          "zh": "大熊猫",
+          "py": "dà xióng māo",
+          "en": "giant panda"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "城里",
+          "py": "chéng lǐ",
+          "en": "in the city"
+        },
+        {
+          "zh": "还有",
+          "py": "hái yǒu",
+          "en": "there are also"
+        },
+        {
+          "zh": "武侯祠",
+          "py": "wǔ hóu cí",
+          "en": "Wuhou Shrine"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "杜甫草堂",
+          "py": "dù fǔ cǎo táng",
+          "en": "Du Fu Thatched Cottage"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "名胜古迹",
+          "py": "míng shèng gǔ jì",
+          "en": "scenic and historic sites"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "成都",
+          "py": "chéng dū",
+          "en": "Chengdu"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐ huān",
+          "en": "to like"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "to go"
+        },
+        {
+          "zh": "茶馆",
+          "py": "chá guǎn",
+          "en": "teahouse"
+        },
+        {
+          "zh": "喝茶",
+          "py": "hē chá",
+          "en": "to drink tea"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "聊天",
+          "py": "liáo tiān",
+          "en": "to chat"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "生活",
+          "py": "shēng huó",
+          "en": "life / to live"
+        },
+        {
+          "zh": "得",
+          "py": "dé",
+          "en": "to get"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very"
+        },
+        {
+          "zh": "舒服",
+          "py": "shū fú",
+          "en": "comfortable"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "辣辣的",
+          "py": "là là de",
+          "en": "spicy"
+        },
+        {
+          "zh": "四川菜",
+          "py": "sì chuān cài",
+          "en": "Sichuan cuisine"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "火锅",
+          "py": "huǒ guō",
+          "en": "hotpot"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒu míng",
+          "en": "famous"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "美食",
+          "py": "měi shí",
+          "en": "delicacies"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "hongkong",
+    "title": "香港",
+    "titleEn": "Hong Kong",
+    "level": 4,
+    "source": {
+      "name": "香港 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/香港"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Hong Kong is a special administrative region of China on the south coast next to Shenzhen. It is one of the world's leading financial centres and a free port where Chinese and Western cultures meet. People call it the 'Pearl of the Orient'.",
+    "paragraphs": [
+      [
+        {
+          "zh": "香港",
+          "py": "xiāng gǎng",
+          "en": "Hong Kong"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "两个",
+          "py": "liǎng gè",
+          "en": "two"
+        },
+        {
+          "zh": "特别行政区",
+          "py": "tè bié xíng zhèng qū",
+          "en": "Special Administrative Region"
+        },
+        {
+          "zh": "之一",
+          "py": "zhī yī",
+          "en": "one of"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "广东",
+          "py": "guǎng dōng",
+          "en": "Guangdong"
+        },
+        {
+          "zh": "深圳",
+          "py": "shēn zhèn",
+          "en": "Shenzhen"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "南边",
+          "py": "nán biān",
+          "en": "south side"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "面对",
+          "py": "miàn duì",
+          "en": "to face"
+        },
+        {
+          "zh": "大海",
+          "py": "dà hǎi",
+          "en": "the sea"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "香港",
+          "py": "xiāng gǎng",
+          "en": "Hong Kong"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "一个",
+          "py": "yí gè",
+          "en": "one"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "国际",
+          "py": "guó jì",
+          "en": "international"
+        },
+        {
+          "zh": "金融中心",
+          "py": "jīn róng zhōng xīn",
+          "en": "financial centre"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "自由港",
+          "py": "zì yóu gǎng",
+          "en": "free port"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中西文化",
+          "py": "zhōng xī wén huà",
+          "en": "Chinese and Western cultures"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "这里",
+          "py": "zhè lǐ",
+          "en": "here"
+        },
+        {
+          "zh": "交汇",
+          "py": "jiāo huì",
+          "en": "to converge"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by (passive)"
+        },
+        {
+          "zh": "称为",
+          "py": "chēng wéi",
+          "en": "to call / be known as"
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东方之珠",
+          "py": "dōng fāng zhī zhū",
+          "en": "Pearl of the Orient"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "香港",
+          "py": "xiāng gǎng",
+          "en": "Hong Kong"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "街道",
+          "py": "jiē dào",
+          "en": "street"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very"
+        },
+        {
+          "zh": "热闹",
+          "py": "rè nào",
+          "en": "bustling"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "既有",
+          "py": "jì yǒu",
+          "en": "to have both"
+        },
+        {
+          "zh": "高楼大厦",
+          "py": "gāo lóu dà shà",
+          "en": "tall buildings"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "传统",
+          "py": "chuán tǒng",
+          "en": "traditional"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "小",
+          "py": "xiǎo",
+          "en": "small"
+        },
+        {
+          "zh": "店铺",
+          "py": "diàn pù",
+          "en": "shop"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每年",
+          "py": "měi nián",
+          "en": "every year"
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "to have / there is"
+        },
+        {
+          "zh": "很多",
+          "py": "hěn duō",
+          "en": "many"
+        },
+        {
+          "zh": "游客",
+          "py": "yóu kè",
+          "en": "tourist"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "香港",
+          "py": "xiāng gǎng",
+          "en": "Hong Kong"
+        },
+        {
+          "zh": "购物",
+          "py": "gòu wù",
+          "en": "shopping"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "旅游",
+          "py": "lǚ yóu",
+          "en": "travel / tourism"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "hotpot",
+    "title": "火锅",
+    "titleEn": "Hotpot",
+    "level": 4,
+    "source": {
+      "name": "火锅 — 维基百科",
+      "url": "https://zh.wikipedia.org/wiki/火锅"
+    },
+    "license": "CC BY-SA 4.0",
+    "english": "Hotpot is a way of cooking at the table: a pot of boiling soup is kept hot, and diners cook thin slices of meat, vegetables, tofu and noodles in it and eat them straight away. The best-known style is the spicy Sichuan hotpot. Eating hotpot together with family and friends is popular, especially in winter.",
+    "paragraphs": [
+      [
+        {
+          "zh": "火锅",
+          "py": "huǒ guō",
+          "en": "hotpot"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "一种",
+          "py": "yī zhǒng",
+          "en": "a kind of"
+        },
+        {
+          "zh": "特别",
+          "py": "tè bié",
+          "en": "especially"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        },
+        {
+          "zh": "方式",
+          "py": "fāng shì",
+          "en": "way"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "桌子",
+          "py": "zhuō zi",
+          "en": "table"
+        },
+        {
+          "zh": "中间",
+          "py": "zhōng jiān",
+          "en": "middle"
+        },
+        {
+          "zh": "放",
+          "py": "fàng",
+          "en": "to put"
+        },
+        {
+          "zh": "一个",
+          "py": "yí gè",
+          "en": "one"
+        },
+        {
+          "zh": "热热",
+          "py": "rè rè",
+          "en": "hot"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "锅",
+          "py": "guō",
+          "en": "pot"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(disposal marker)"
+        },
+        {
+          "zh": "肉片",
+          "py": "ròu piàn",
+          "en": "slices of meat"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "蔬菜",
+          "py": "shū cài",
+          "en": "vegetables"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "豆腐",
+          "py": "dòu fǔ",
+          "en": "tofu"
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "etc."
+        },
+        {
+          "zh": "放进去",
+          "py": "fàng jìn qù",
+          "en": "to put in"
+        },
+        {
+          "zh": "煮熟",
+          "py": "zhǔ shú",
+          "en": "to cook"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "马上",
+          "py": "mǎ shàng",
+          "en": "immediately"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "可以",
+          "py": "kě yǐ",
+          "en": "can"
+        },
+        {
+          "zh": "吃",
+          "py": "chī",
+          "en": "to eat"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "最",
+          "py": "zuì",
+          "en": "most"
+        },
+        {
+          "zh": "有名",
+          "py": "yǒu míng",
+          "en": "famous"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "to be"
+        },
+        {
+          "zh": "四川",
+          "py": "sì chuān",
+          "en": "Sichuan"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "麻辣火锅",
+          "py": "má là huǒ guō",
+          "en": "spicy hotpot"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又麻又辣",
+          "py": "yòu má yòu là",
+          "en": "both numbing and spicy"
+        },
+        {
+          "zh": "；",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "北方",
+          "py": "běi fāng",
+          "en": "northern"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "喜欢",
+          "py": "xǐ huān",
+          "en": "to like"
+        },
+        {
+          "zh": "清淡",
+          "py": "qīng dàn",
+          "en": "light (flavor)"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "涮羊肉",
+          "py": "shuàn yáng ròu",
+          "en": "mutton hotpot"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "冬天",
+          "py": "dōng tiān",
+          "en": "winter"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "时候",
+          "py": "shí hòu",
+          "en": "time / moment"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "家人",
+          "py": "jiā rén",
+          "en": "family members"
+        },
+        {
+          "zh": "朋友",
+          "py": "péng yǒu",
+          "en": "friend"
+        },
+        {
+          "zh": "围着",
+          "py": "wéi zhe",
+          "en": "sitting around"
+        },
+        {
+          "zh": "火锅",
+          "py": "huǒ guō",
+          "en": "hotpot"
+        },
+        {
+          "zh": "一起",
+          "py": "yì qǐ",
+          "en": "together"
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "to eat a meal"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "暖和",
+          "py": "nuǎn huo",
+          "en": "warm"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "both... and"
+        },
+        {
+          "zh": "开心",
+          "py": "kāi xīn",
+          "en": "happy"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所以",
+          "py": "suǒ yǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "火锅",
+          "py": "huǒ guō",
+          "en": "hotpot"
+        },
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "at / in"
+        },
+        {
+          "zh": "中国",
+          "py": "zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "非常",
+          "py": "fēi cháng",
+          "en": "extremely"
+        },
+        {
+          "zh": "受欢迎",
+          "py": "shòu huān yíng",
+          "en": "popular / well-received"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
     "id": "panda",
     "title": "大熊猫",
     "titleEn": "The Giant Panda",
@@ -75,7 +6955,7 @@ const TEXTS = [
         {
           "zh": "受欢迎",
           "py": "shòu huān yíng",
-          "en": "popular"
+          "en": "popular / well-received"
         },
         {
           "zh": "的",
@@ -170,7 +7050,7 @@ const TEXTS = [
         {
           "zh": "看起来",
           "py": "kàn qǐ lái",
-          "en": "looks / appears"
+          "en": "to look / appear"
         },
         {
           "zh": "十分",
@@ -524,7 +7404,7 @@ const TEXTS = [
         {
           "zh": "经过",
           "py": "jīng guò",
-          "en": "through / after"
+          "en": "to pass through"
         },
         {
           "zh": "多年",
@@ -568,7 +7448,7 @@ const TEXTS = [
         },
         {
           "zh": "2700",
-          "py": "liǎng qiān qī bǎi",
+          "py": "èr qī líng líng",
           "en": "2700"
         },
         {
@@ -947,7 +7827,7 @@ const TEXTS = [
         {
           "zh": "好吃",
           "py": "hǎo chī",
-          "en": "delicious"
+          "en": "tasty"
         },
         {
           "zh": "的",
@@ -1758,7 +8638,7 @@ const TEXTS = [
         },
         {
           "zh": "160",
-          "py": "yìbǎi liùshí",
+          "py": "yī bǎi liù shí",
           "en": "160"
         },
         {
@@ -2045,7 +8925,7 @@ const TEXTS = [
         {
           "zh": "所以",
           "py": "suǒ yǐ",
-          "en": "so / therefore"
+          "en": "therefore"
         },
         {
           "zh": "也",
@@ -2822,7 +9702,7 @@ const TEXTS = [
         {
           "zh": "研究",
           "py": "yán jiū",
-          "en": "to research"
+          "en": "research"
         },
         {
           "zh": "，",
@@ -2934,7 +9814,7 @@ const TEXTS = [
         {
           "zh": "方式",
           "py": "fāng shì",
-          "en": "way / manner"
+          "en": "way"
         },
         {
           "zh": "，",
@@ -3023,7 +9903,7 @@ const TEXTS = [
         },
         {
           "zh": "32",
-          "py": "sānshí'èr",
+          "py": "sān shí èr",
           "en": "32"
         },
         {
@@ -3285,7 +10165,7 @@ const TEXTS = [
         {
           "zh": "研究",
           "py": "yán jiū",
-          "en": "to research"
+          "en": "research"
         },
         {
           "zh": "领域",
@@ -3795,7 +10675,7 @@ const TEXTS = [
         {
           "zh": "影响",
           "py": "yǐng xiǎng",
-          "en": "impact"
+          "en": "influence"
         },
         {
           "zh": "。",
@@ -3922,7 +10802,7 @@ const TEXTS = [
         {
           "zh": "影响",
           "py": "yǐng xiǎng",
-          "en": "impact"
+          "en": "influence"
         },
         {
           "zh": "越来越",

@@ -16139,6 +16139,7642 @@ const TEXTS = [
     ]
   },
   {
+    "id": "tb4-love",
+    "title": "简单的爱情",
+    "titleEn": "Simple Love",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "王静和李老师认识____就要结婚了。",
+        "opts": [
+          "才半年",
+          "十年",
+          "三年",
+          "一个星期"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "他从来不送她____的礼物。",
+        "opts": [
+          "贵重",
+          "便宜",
+          "难看",
+          "很大"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "李老师虽然工作很忙，但是每天一下班就____帮她做饭。",
+        "opts": [
+          "回家",
+          "去喝酒",
+          "打篮球",
+          "看电视"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "在王静看来，在生活上____最重要。",
+        "opts": [
+          "互相理解",
+          "金钱",
+          "工作",
+          "礼物"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "王静和李老师认识十年了。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "即使是一朵小花，也能让王静感动。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "今年七夕他们打算去很贵的餐厅吃饭。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "王静认为爱情其实很简单。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "爱情",
+          "其实",
+          "就是",
+          "这么",
+          "简单"
+        ],
+        "a": [
+          "爱情",
+          "其实",
+          "就是",
+          "这么",
+          "简单"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "他",
+          "从来",
+          "不",
+          "送",
+          "贵重的",
+          "礼物"
+        ],
+        "a": [
+          "他",
+          "从来",
+          "不",
+          "送",
+          "贵重的",
+          "礼物"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 1 课 简单的爱情",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Wang Jing and Teacher Li are getting married. The news surprised and moved their friends — they had only known each other for half a year! Asked whether things were moving too fast, Wang Jing smiled: love is really this simple. He never gives her expensive gifts; even a small flower can move her. However busy he is, he comes home right after work to help her cook. In her view, understanding each other in daily life is more important than anything else. This Qixi Festival they just plan to cook a few dishes together at home — that is their simple love.",
+    "paragraphs": [
+      [
+        {
+          "zh": "王静",
+          "py": "Wáng Jìng",
+          "en": "Wang Jing"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "李老师",
+          "py": "Lǐ lǎoshī",
+          "en": "Teacher Li"
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "will"
+        },
+        {
+          "zh": "结婚",
+          "py": "jié hūn",
+          "en": "get married"
+        },
+        {
+          "zh": "了",
+          "py": "le",
+          "en": "(completed)"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这个",
+          "py": "zhè ge",
+          "en": "this"
+        },
+        {
+          "zh": "消息",
+          "py": "xiāo xi",
+          "en": "news"
+        },
+        {
+          "zh": "让",
+          "py": "ràng",
+          "en": "make"
+        },
+        {
+          "zh": "朋友",
+          "py": "péng you",
+          "en": "friend"
+        },
+        {
+          "zh": "们",
+          "py": "men",
+          "en": "(plural)"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "also"
+        },
+        {
+          "zh": "吃惊",
+          "py": "chī jīng",
+          "en": "surprised"
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "also"
+        },
+        {
+          "zh": "感动",
+          "py": "gǎn dòng",
+          "en": "moved"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他们",
+          "py": "tā men",
+          "en": "they"
+        },
+        {
+          "zh": "认识",
+          "py": "rèn shi",
+          "en": "know each other"
+        },
+        {
+          "zh": "才",
+          "py": "cái",
+          "en": "only"
+        },
+        {
+          "zh": "半年",
+          "py": "bàn nián",
+          "en": "half a year"
+        },
+        {
+          "zh": "！",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有",
+          "py": "yǒu",
+          "en": "have"
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "问",
+          "py": "wèn",
+          "en": "ask"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你们",
+          "py": "nǐ men",
+          "en": "you (pl.)"
+        },
+        {
+          "zh": "发展",
+          "py": "fā zhǎn",
+          "en": "develop"
+        },
+        {
+          "zh": "得",
+          "py": "de",
+          "en": "(structural)"
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "太",
+          "py": "tài",
+          "en": "too"
+        },
+        {
+          "zh": "快",
+          "py": "kuài",
+          "en": "fast"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "吧",
+          "py": "ba",
+          "en": "(particle)"
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "nǐ",
+          "en": "you"
+        },
+        {
+          "zh": "真的",
+          "py": "zhēn de",
+          "en": "really"
+        },
+        {
+          "zh": "了解",
+          "py": "liǎo jiě",
+          "en": "understand"
+        },
+        {
+          "zh": "他",
+          "py": "tā",
+          "en": "him"
+        },
+        {
+          "zh": "吗",
+          "py": "ma",
+          "en": "(question)"
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "王静",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "笑",
+          "py": "xiào",
+          "en": "smile"
+        },
+        {
+          "zh": "着",
+          "py": "zhe",
+          "en": "(aspect)"
+        },
+        {
+          "zh": "说",
+          "py": "shuō",
+          "en": "say"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "爱情",
+          "py": "ài qíng",
+          "en": "love"
+        },
+        {
+          "zh": "其实",
+          "py": "qí shí",
+          "en": "actually"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "just"
+        },
+        {
+          "zh": "是",
+          "py": "shì",
+          "en": "is"
+        },
+        {
+          "zh": "这么",
+          "py": "zhè me",
+          "en": "this"
+        },
+        {
+          "zh": "简单",
+          "py": "jiǎn dān",
+          "en": "simple"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "从来",
+          "py": "cóng lái",
+          "en": "never"
+        },
+        {
+          "zh": "不",
+          "py": "bù",
+          "en": "not"
+        },
+        {
+          "zh": "送",
+          "py": "sòng",
+          "en": "give (a gift)"
+        },
+        {
+          "zh": "我",
+          "py": "wǒ",
+          "en": "me"
+        },
+        {
+          "zh": "贵重",
+          "py": "guì zhòng",
+          "en": "expensive"
+        },
+        {
+          "zh": "的",
+          "py": "de",
+          "en": "(attributive)"
+        },
+        {
+          "zh": "礼物",
+          "py": "lǐ wù",
+          "en": "gift"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "即使",
+          "py": "jí shǐ",
+          "en": "even if"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "yì",
+          "en": "one"
+        },
+        {
+          "zh": "朵",
+          "py": "duǒ",
+          "en": "(measure for flowers)"
+        },
+        {
+          "zh": "小花",
+          "py": "xiǎo huā",
+          "en": "small flower"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "still"
+        },
+        {
+          "zh": "能",
+          "py": "néng",
+          "en": "can"
+        },
+        {
+          "zh": "让",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "感动",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "虽然",
+          "py": "suī rán",
+          "en": "although"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "工作",
+          "py": "gōng zuò",
+          "en": "work"
+        },
+        {
+          "zh": "很",
+          "py": "hěn",
+          "en": "very"
+        },
+        {
+          "zh": "忙",
+          "py": "máng",
+          "en": "busy"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "但是",
+          "py": "dàn shì",
+          "en": "but"
+        },
+        {
+          "zh": "每天",
+          "py": "měi tiān",
+          "en": "every day"
+        },
+        {
+          "zh": "一",
+          "py": "yí",
+          "en": "as soon as"
+        },
+        {
+          "zh": "下班",
+          "py": "xià bān",
+          "en": "get off work"
+        },
+        {
+          "zh": "就",
+          "py": "jiù",
+          "en": "then"
+        },
+        {
+          "zh": "回家",
+          "py": "huí jiā",
+          "en": "go home"
+        },
+        {
+          "zh": "帮",
+          "py": "bāng",
+          "en": "help"
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做饭",
+          "py": "zuò fàn",
+          "en": "cook"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "在",
+          "py": "zài",
+          "en": "in"
+        },
+        {
+          "zh": "王静",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看来",
+          "py": "kàn lái",
+          "en": "in the view of"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "生活",
+          "py": "shēng huó",
+          "en": "life"
+        },
+        {
+          "zh": "上",
+          "py": "shàng",
+          "en": "in (a matter)"
+        },
+        {
+          "zh": "互相",
+          "py": "hù xiāng",
+          "en": "each other"
+        },
+        {
+          "zh": "理解",
+          "py": "lǐ jiě",
+          "en": "understand"
+        },
+        {
+          "zh": "不仅",
+          "py": "bù jǐn",
+          "en": "not only"
+        },
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "than"
+        },
+        {
+          "zh": "金钱",
+          "py": "jīn qián",
+          "en": "money"
+        },
+        {
+          "zh": "重要",
+          "py": "zhòng yào",
+          "en": "important"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "yě",
+          "en": "also"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "幸福",
+          "py": "xìng fú",
+          "en": "happiness"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "开始",
+          "py": "kāi shǐ",
+          "en": "beginning"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "今年",
+          "py": "jīn nián",
+          "en": "this year"
+        },
+        {
+          "zh": "七夕",
+          "py": "qī xī",
+          "en": "Qixi Festival"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "打算",
+          "py": "dǎ suàn",
+          "en": "plan"
+        },
+        {
+          "zh": "去",
+          "py": "qù",
+          "en": "go"
+        },
+        {
+          "zh": "贵",
+          "py": "guì",
+          "en": "expensive"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "餐厅",
+          "py": "cān tīng",
+          "en": "restaurant"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "只",
+          "py": "zhǐ",
+          "en": "only"
+        },
+        {
+          "zh": "准备",
+          "py": "zhǔn bèi",
+          "en": "prepare"
+        },
+        {
+          "zh": "在家",
+          "py": "zài jiā",
+          "en": "at home"
+        },
+        {
+          "zh": "一起",
+          "py": "yì qǐ",
+          "en": "together"
+        },
+        {
+          "zh": "做",
+          "py": "zuò",
+          "en": "make"
+        },
+        {
+          "zh": "几",
+          "py": "jǐ",
+          "en": "a few"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "(measure)"
+        },
+        {
+          "zh": "菜",
+          "py": "cài",
+          "en": "dish"
+        },
+        {
+          "zh": "——",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这",
+          "py": "zhè",
+          "en": "this"
+        },
+        {
+          "zh": "就是",
+          "py": "jiù shì",
+          "en": "is exactly"
+        },
+        {
+          "zh": "他们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "简单",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "爱情",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-friend",
+    "title": "真正的朋友",
+    "titleEn": "A True Friend",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "马克感冒的时候，____来看他，还带来了水果和药。",
+        "opts": [
+          "正好小夏",
+          "王经理",
+          "李老师",
+          "孙月"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "真正的朋友是你遇到____时第一个帮助你的人。",
+        "opts": [
+          "困难",
+          "高兴",
+          "生日",
+          "放假"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "尽管毕业以后大家工作都很忙，他们却一直保持着____。",
+        "opts": [
+          "联系",
+          "金钱",
+          "秘密",
+          "意见"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "“在家靠父母，出门靠____。”",
+        "opts": [
+          "朋友",
+          "自己",
+          "司机",
+          "警察"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "小夏给马克带来了水果和药。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "马克觉得小夏不是真正的朋友。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "毕业以后他们就再也没有联系过。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "小夏认为朋友之间应该互相帮助。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "朋友",
+          "之间",
+          "应该",
+          "互相",
+          "帮助"
+        ],
+        "a": [
+          "朋友",
+          "之间",
+          "应该",
+          "互相",
+          "帮助"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "在家",
+          "靠",
+          "父母",
+          "出门",
+          "靠",
+          "朋友"
+        ],
+        "a": [
+          "在家",
+          "靠",
+          "父母",
+          "出门",
+          "靠",
+          "朋友"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 2 课 真正的朋友",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Mark has been in China for three years and has made many Chinese friends. Last month he caught a cold and felt terrible lying at home alone — just then, Xiaoxia came to visit and brought him fruit and medicine. Mark was moved: 'Thank you, my good friend!' Xiaoxia smiled: 'No need to thank me — friends should help each other. A true friend is not the person who plays with you every day, but the first person to help you when you meet difficulties.' However busy everyone is with work after graduation, they have kept in touch. As the saying goes: at home you rely on your parents, away from home you rely on your friends.",
+    "paragraphs": [
+      [
+        {
+          "zh": "马克",
+          "py": "Mǎ Kè",
+          "en": "Mark"
+        },
+        {
+          "zh": "来",
+          "py": "lái",
+          "en": "come"
+        },
+        {
+          "zh": "中国",
+          "py": "Zhōng guó",
+          "en": "China"
+        },
+        {
+          "zh": "已经",
+          "py": "yǐ jīng",
+          "en": "already"
+        },
+        {
+          "zh": "三年",
+          "py": "sān nián",
+          "en": "three years"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "交",
+          "py": "jiāo",
+          "en": "make (friends)"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不少",
+          "py": "bù shǎo",
+          "en": "quite a few"
+        },
+        {
+          "zh": "中国",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "上个月",
+          "py": "shàng gè yuè",
+          "en": "last month"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "感冒",
+          "py": "gǎn mào",
+          "en": "catch a cold"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "yí",
+          "en": "one"
+        },
+        {
+          "zh": "个",
+          "py": "gè",
+          "en": "(measure)"
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "person"
+        },
+        {
+          "zh": "躺",
+          "py": "tǎng",
+          "en": "lie"
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "床",
+          "py": "chuáng",
+          "en": "bed"
+        },
+        {
+          "zh": "上",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "难受",
+          "py": "nán shòu",
+          "en": "feel awful"
+        },
+        {
+          "zh": "极了",
+          "py": "jí le",
+          "en": "extremely"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "正好",
+          "py": "zhèng hǎo",
+          "en": "just then"
+        },
+        {
+          "zh": "小夏",
+          "py": "Xiǎo Xià",
+          "en": "Xiaoxia"
+        },
+        {
+          "zh": "来",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "visit"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "还",
+          "py": "hái",
+          "en": "also"
+        },
+        {
+          "zh": "给",
+          "py": "gěi",
+          "en": "to"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "带来",
+          "py": "dài lái",
+          "en": "bring"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "水果",
+          "py": "shuǐ guǒ",
+          "en": "fruit"
+        },
+        {
+          "zh": "和",
+          "py": "hé",
+          "en": "and"
+        },
+        {
+          "zh": "药",
+          "py": "yào",
+          "en": "medicine"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "马克",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "感动",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "地",
+          "py": "de",
+          "en": "(adverbial)"
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "谢谢",
+          "py": "xiè xie",
+          "en": "thank you"
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "！",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "小夏",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "笑",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "着",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "没关系",
+          "py": "méi guān xi",
+          "en": "it's nothing"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "之间",
+          "py": "zhī jiān",
+          "en": "between"
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "应该",
+          "py": "yīng gāi",
+          "en": "should"
+        },
+        {
+          "zh": "互相",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "帮助",
+          "py": "bāng zhù",
+          "en": "help"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "真正",
+          "py": "zhēn zhèng",
+          "en": "true"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不是",
+          "py": "bú shì",
+          "en": "is not"
+        },
+        {
+          "zh": "每天",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "陪",
+          "py": "péi",
+          "en": "accompany"
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "玩儿",
+          "py": "wánr",
+          "en": "play"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "而",
+          "py": "ér",
+          "en": "but"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "遇到",
+          "py": "yù dào",
+          "en": "meet"
+        },
+        {
+          "zh": "困难",
+          "py": "kùn nan",
+          "en": "difficulty"
+        },
+        {
+          "zh": "时",
+          "py": "shí",
+          "en": "when"
+        },
+        {
+          "zh": "第一",
+          "py": "dì yī",
+          "en": "first"
+        },
+        {
+          "zh": "个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "帮助",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "尽管",
+          "py": "jǐn guǎn",
+          "en": "although"
+        },
+        {
+          "zh": "毕业",
+          "py": "bì yè",
+          "en": "graduate"
+        },
+        {
+          "zh": "以后",
+          "py": "yǐ hòu",
+          "en": "after"
+        },
+        {
+          "zh": "大家",
+          "py": "dà jiā",
+          "en": "everyone"
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "dōu",
+          "en": "all"
+        },
+        {
+          "zh": "很",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "忙",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "却",
+          "py": "què",
+          "en": "yet"
+        },
+        {
+          "zh": "一直",
+          "py": "yì zhí",
+          "en": "always"
+        },
+        {
+          "zh": "保持",
+          "py": "bǎo chí",
+          "en": "keep"
+        },
+        {
+          "zh": "着",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "联系",
+          "py": "lián xì",
+          "en": "contact"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "俗话说",
+          "py": "sú huà shuō",
+          "en": "as the saying goes"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在家",
+          "py": "zài jiā",
+          "en": "at home"
+        },
+        {
+          "zh": "靠",
+          "py": "kào",
+          "en": "rely on"
+        },
+        {
+          "zh": "父母",
+          "py": "fù mǔ",
+          "en": "parents"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "出门",
+          "py": "chū mén",
+          "en": "away from home"
+        },
+        {
+          "zh": "靠",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "之间",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "关系",
+          "py": "guān xi",
+          "en": "relationship"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "要",
+          "py": "yào",
+          "en": "need"
+        },
+        {
+          "zh": "靠",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "真心",
+          "py": "zhēn xīn",
+          "en": "sincerity"
+        },
+        {
+          "zh": "和",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时间",
+          "py": "shí jiān",
+          "en": "time"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-impression",
+    "title": "经理对我印象不错",
+    "titleEn": "I've Made a Good Impression on the Manager",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "小雨去一家公司____。",
+        "opts": [
+          "面试",
+          "旅游",
+          "买东西",
+          "看病"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "首先，她说自己做事____。",
+        "opts": [
+          "认真",
+          "马虎",
+          "很慢",
+          "便宜"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "平时无论多忙，她都会____完成工作。",
+        "opts": [
+          "准时",
+          "忘记",
+          "让别人",
+          "不"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "经理对小雨的印象____。",
+        "opts": [
+          "很不错",
+          "很不好",
+          "一般",
+          "没有"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "本来小雨一点儿也不紧张。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "小雨说不管遇到什么问题都不会放弃。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "面试的时候，经理一点儿也不友好。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "一个星期以后，小雨收到了公司的电话。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "我",
+          "做事",
+          "一直",
+          "很",
+          "认真"
+        ],
+        "a": [
+          "我",
+          "做事",
+          "一直",
+          "很",
+          "认真"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "经理",
+          "对",
+          "我",
+          "印象",
+          "不错"
+        ],
+        "a": [
+          "经理",
+          "对",
+          "我",
+          "印象",
+          "不错"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 3 课 经理对我印象不错",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Xiaoyu went to a company for a job interview. She was extremely nervous at first, but when she walked into the office, the manager's friendly smile helped her relax. Asked about her strengths, she answered: 'First, I work carefully — however busy I am on ordinary days, I always finish my work on time. Second, I learn fast and can improve in time. Besides, no matter what problems I meet, I never give up.' A week later the company called: her performance was quite good and the manager had a good impression of her — she should start work the next month!",
+    "paragraphs": [
+      [
+        {
+          "zh": "小雨",
+          "py": "Xiǎo Yǔ",
+          "en": "Xiaoyu"
+        },
+        {
+          "zh": "去",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一家",
+          "py": "yì jiā",
+          "en": "a (company)"
+        },
+        {
+          "zh": "公司",
+          "py": "gōng sī",
+          "en": "company"
+        },
+        {
+          "zh": "面试",
+          "py": "miàn shì",
+          "en": "interview"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "本来",
+          "py": "běn lái",
+          "en": "originally"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "紧张",
+          "py": "jǐn zhāng",
+          "en": "nervous"
+        },
+        {
+          "zh": "极了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可是",
+          "py": "kě shì",
+          "en": "but"
+        },
+        {
+          "zh": "走",
+          "py": "zǒu",
+          "en": "walk"
+        },
+        {
+          "zh": "进",
+          "py": "jìn",
+          "en": "into"
+        },
+        {
+          "zh": "办公室",
+          "py": "bàn gōng shì",
+          "en": "office"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时候",
+          "py": "shí hou",
+          "en": "moment"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经理",
+          "py": "jīng lǐ",
+          "en": "manager"
+        },
+        {
+          "zh": "友好",
+          "py": "yǒu hǎo",
+          "en": "friendly"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "微笑",
+          "py": "wēi xiào",
+          "en": "smile"
+        },
+        {
+          "zh": "让",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "放松",
+          "py": "fàng sōng",
+          "en": "relax"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "下来",
+          "py": "xià lái",
+          "en": "down"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "经理",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "问",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "觉得",
+          "py": "jué de",
+          "en": "feel"
+        },
+        {
+          "zh": "自己",
+          "py": "zì jǐ",
+          "en": "oneself"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "优点",
+          "py": "yōu diǎn",
+          "en": "strength"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "什么",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "小雨",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "回答",
+          "py": "huí dá",
+          "en": "answer"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "首先",
+          "py": "shǒu xiān",
+          "en": "first"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做事",
+          "py": "zuò shì",
+          "en": "do things"
+        },
+        {
+          "zh": "认真",
+          "py": "rèn zhēn",
+          "en": "careful"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "平时",
+          "py": "píng shí",
+          "en": "usually"
+        },
+        {
+          "zh": "无论",
+          "py": "wú lùn",
+          "en": "no matter"
+        },
+        {
+          "zh": "多",
+          "py": "duō",
+          "en": "how"
+        },
+        {
+          "zh": "忙",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "准时",
+          "py": "zhǔn shí",
+          "en": "on time"
+        },
+        {
+          "zh": "完成",
+          "py": "wán chéng",
+          "en": "finish"
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "；",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其次",
+          "py": "qí cì",
+          "en": "secondly"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "学习",
+          "py": "xué xí",
+          "en": "study"
+        },
+        {
+          "zh": "能力",
+          "py": "néng lì",
+          "en": "ability"
+        },
+        {
+          "zh": "强",
+          "py": "qiáng",
+          "en": "strong"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "能",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "及时",
+          "py": "jí shí",
+          "en": "in time"
+        },
+        {
+          "zh": "提高",
+          "py": "tí gāo",
+          "en": "improve"
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "另外",
+          "py": "lìng wài",
+          "en": "besides"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不管",
+          "py": "bù guǎn",
+          "en": "no matter"
+        },
+        {
+          "zh": "遇到",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "什么",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "问题",
+          "py": "wèn tí",
+          "en": "problem"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "放弃",
+          "py": "fàng qì",
+          "en": "give up"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "星期",
+          "py": "xīng qī",
+          "en": "week"
+        },
+        {
+          "zh": "以后",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "小雨",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "收到",
+          "py": "shōu dào",
+          "en": "receive"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "公司",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "电话",
+          "py": "diàn huà",
+          "en": "phone call"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "表现",
+          "py": "biǎo xiàn",
+          "en": "performance"
+        },
+        {
+          "zh": "挺",
+          "py": "tǐng",
+          "en": "quite"
+        },
+        {
+          "zh": "不错",
+          "py": "bú cuò",
+          "en": "not bad"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经理",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "对",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "印象",
+          "py": "yìn xiàng",
+          "en": "impression"
+        },
+        {
+          "zh": "很",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "下个月",
+          "py": "xià gè yuè",
+          "en": "next month"
+        },
+        {
+          "zh": "来",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "上班",
+          "py": "shàng bān",
+          "en": "start work"
+        },
+        {
+          "zh": "吧",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "！",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "高兴",
+          "py": "gāo xìng",
+          "en": "happy"
+        },
+        {
+          "zh": "极了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-money",
+    "title": "不要太着急赚钱",
+    "titleEn": "Don't Be Anxious to Make Money",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "小李刚找到工作，他以为____很容易。",
+        "opts": [
+          "赚钱",
+          "学习",
+          "做饭",
+          "钓鱼"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "能把工作做好的人，还需要好的____。",
+        "opts": [
+          "方法",
+          "运气",
+          "衣服",
+          "朋友"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "王经理告诉他按照____一步一步地提高自己。",
+        "opts": [
+          "计划",
+          "感觉",
+          "爱好",
+          "颜色"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "“授人以鱼不如授人以渔”的意思是：给别人鱼，不如教他____的方法。",
+        "opts": [
+          "打鱼",
+          "游泳",
+          "做饭",
+          "赚钱"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "小李一开始就明白赚钱不容易。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "三个月以后，小李发现事情并不是他原来想的那样。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "王经理觉得对年轻人来说最重要的是马上赚钱。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "有了好办法，才会有好结果。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "他",
+          "以为",
+          "赚钱",
+          "很",
+          "容易"
+        ],
+        "a": [
+          "他",
+          "以为",
+          "赚钱",
+          "很",
+          "容易"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "学习",
+          "对",
+          "年轻人",
+          "最",
+          "重要"
+        ],
+        "a": [
+          "学习",
+          "对",
+          "年轻人",
+          "最",
+          "重要"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 4 课 不要太着急赚钱",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Xiao Li had just found a job and thought making money was easy — you just had to work hard. But three months later he found that things are not like that. It turns out that the person who does the work best is not always the one who works the most; good methods are also needed. Manager Wang told him: don't rush — for young people, learning is the most important thing. Improve yourself step by step according to the plan, and you will even find work more and more interesting. There is an old Chinese saying: give a man a fish and you feed him for a day; teach him to fish and you feed him for a lifetime.",
+    "paragraphs": [
+      [
+        {
+          "zh": "小李",
+          "py": "Xiǎo Lǐ",
+          "en": "Xiao Li"
+        },
+        {
+          "zh": "刚",
+          "py": "gāng",
+          "en": "just"
+        },
+        {
+          "zh": "找到",
+          "py": "zhǎo dào",
+          "en": "find"
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "以为",
+          "py": "yǐ wéi",
+          "en": "thought (mistakenly)"
+        },
+        {
+          "zh": "赚钱",
+          "py": "zhuàn qián",
+          "en": "make money"
+        },
+        {
+          "zh": "很",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "容易",
+          "py": "róng yì",
+          "en": "easy"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "只要",
+          "py": "zhǐ yào",
+          "en": "as long as"
+        },
+        {
+          "zh": "努力",
+          "py": "nǔ lì",
+          "en": "hard work"
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "够",
+          "py": "gòu",
+          "en": "enough"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "三",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "月",
+          "py": "yuè",
+          "en": "month"
+        },
+        {
+          "zh": "以后",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "发现",
+          "py": "fā xiàn",
+          "en": "discover"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "事情",
+          "py": "shì qing",
+          "en": "things"
+        },
+        {
+          "zh": "并",
+          "py": "bìng",
+          "en": "indeed"
+        },
+        {
+          "zh": "不是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "这样",
+          "py": "zhè yàng",
+          "en": "this way"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "原来",
+          "py": "yuán lái",
+          "en": "it turns out"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "公司",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "里",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "能",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "把",
+          "py": "bǎ",
+          "en": "(preposition)"
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做好",
+          "py": "zuò hǎo",
+          "en": "do well"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "并不一定",
+          "py": "bù yí dìng",
+          "en": "not necessarily"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "干活儿",
+          "py": "gàn huór",
+          "en": "work"
+        },
+        {
+          "zh": "最多",
+          "py": "zuì duō",
+          "en": "most"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "还",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "需要",
+          "py": "xū yào",
+          "en": "need"
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "方法",
+          "py": "fāng fǎ",
+          "en": "method"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "王经理",
+          "py": "Wáng jīnglǐ",
+          "en": "Manager Wang"
+        },
+        {
+          "zh": "告诉",
+          "py": "gào su",
+          "en": "tell"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "别",
+          "py": "bié",
+          "en": "don't"
+        },
+        {
+          "zh": "着急",
+          "py": "zháo jí",
+          "en": "anxious"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "对",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "年轻人",
+          "py": "nián qīng rén",
+          "en": "young people"
+        },
+        {
+          "zh": "来说",
+          "py": "lái shuō",
+          "en": "for"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "学习",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "按照",
+          "py": "àn zhào",
+          "en": "according to"
+        },
+        {
+          "zh": "计划",
+          "py": "jì huà",
+          "en": "plan"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一步",
+          "py": "yí bù",
+          "en": "one step"
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "步",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "地",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "提高",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "甚至",
+          "py": "shèn zhì",
+          "en": "even"
+        },
+        {
+          "zh": "会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "发现",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "越来越",
+          "py": "yuè lái yuè",
+          "en": "more and more"
+        },
+        {
+          "zh": "有趣",
+          "py": "yǒu qù",
+          "en": "interesting"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "中国",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "句",
+          "py": "jù",
+          "en": "(measure)"
+        },
+        {
+          "zh": "老话",
+          "py": "lǎo huà",
+          "en": "old saying"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "授人以鱼不如授人以渔",
+          "py": "shòu rén yǐ yú bù rú shòu rén yǐ yú",
+          "en": "give a man a fish, teach a man to fish"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "意思",
+          "py": "yì si",
+          "en": "meaning"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "送给",
+          "py": "sòng gěi",
+          "en": "give"
+        },
+        {
+          "zh": "别人",
+          "py": "bié rén",
+          "en": "others"
+        },
+        {
+          "zh": "一条",
+          "py": "yì tiáo",
+          "en": "one (fish)"
+        },
+        {
+          "zh": "鱼",
+          "py": "yú",
+          "en": "fish"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不如",
+          "py": "bù rú",
+          "en": "not as good as"
+        },
+        {
+          "zh": "教",
+          "py": "jiāo",
+          "en": "teach"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "打鱼",
+          "py": "dǎ yú",
+          "en": "fish (v.)"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "方法",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有了",
+          "py": "yǒu le",
+          "en": "having"
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "办法",
+          "py": "bàn fǎ",
+          "en": "way"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "才",
+          "py": "cái",
+          "en": "only then"
+        },
+        {
+          "zh": "会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "结果",
+          "py": "jié guǒ",
+          "en": "result"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-shopping",
+    "title": "只买对的，不买贵的",
+    "titleEn": "Buy the Right One, Not the Expensive One",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "对王静来说，买沙发最重要的是____。",
+        "opts": [
+          "舒服和质量",
+          "价格",
+          "颜色",
+          "牌子"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "网上购物以前一定要做好____。",
+        "opts": [
+          "准备",
+          "饭",
+          "作业",
+          "运动"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "尤其是买____的时候，每个人的标准都不一样。",
+        "opts": [
+          "衣服",
+          "沙发",
+          "药",
+          "书"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "便宜的东西的质量____。",
+        "opts": [
+          "不一定差",
+          "一定差",
+          "一定好",
+          "没有办法知道"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "店员向王静介绍的是最便宜的沙发。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "王静最后选了一个便宜的沙发。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "贵的东西一定适合自己。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "买东西以前多想多比，肯定会买到又对又好的东西。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "只",
+          "买",
+          "对",
+          "的",
+          "不",
+          "买",
+          "贵",
+          "的"
+        ],
+        "a": [
+          "只",
+          "买",
+          "对",
+          "的",
+          "不",
+          "买",
+          "贵",
+          "的"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "你",
+          "肯定",
+          "会",
+          "买到",
+          "好",
+          "东西"
+        ],
+        "a": [
+          "你",
+          "肯定",
+          "会",
+          "买到",
+          "好",
+          "东西"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 5 课 只买对的，不买贵的",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "At the weekend Wang Jing went to a furniture store to buy a sofa. The shop assistant kept recommending the most expensive one, but in the end she chose a cheap one: 'For me, comfort and quality matter most — price is not the standard. Buy what is right, not what is expensive.' Shopping online is very convenient now, but you must prepare before buying: find out the real quality and price of things, especially when buying clothes — everyone's standards are different. Besides, expensive things do not necessarily suit you, and cheap things are not necessarily bad in quality. Think more and compare before buying, and you will surely get something both right and good.",
+    "paragraphs": [
+      [
+        {
+          "zh": "周末",
+          "py": "zhōu mò",
+          "en": "weekend"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "王静",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "家具",
+          "py": "jiā jù",
+          "en": "furniture"
+        },
+        {
+          "zh": "店",
+          "py": "diàn",
+          "en": "shop"
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "沙发",
+          "py": "shā fā",
+          "en": "sofa"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "店员",
+          "py": "diàn yuán",
+          "en": "shop assistant"
+        },
+        {
+          "zh": "一直",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "向",
+          "py": "xiàng",
+          "en": "to"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "介绍",
+          "py": "jiè shào",
+          "en": "introduce"
+        },
+        {
+          "zh": "最贵",
+          "py": "zuì guì",
+          "en": "most expensive"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "那一个",
+          "py": "nà yí gè",
+          "en": "that one"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可",
+          "py": "kě",
+          "en": "but"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最后",
+          "py": "zuì hòu",
+          "en": "finally"
+        },
+        {
+          "zh": "选",
+          "py": "xuǎn",
+          "en": "chose"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "便宜",
+          "py": "pián yi",
+          "en": "cheap"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "对",
+          "py": "duì",
+          "en": "for"
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "来说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "舒服",
+          "py": "shū fu",
+          "en": "comfortable"
+        },
+        {
+          "zh": "和",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "zhì liàng",
+          "en": "quality"
+        },
+        {
+          "zh": "最",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "价格",
+          "py": "jià gé",
+          "en": "price"
+        },
+        {
+          "zh": "并",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "标准",
+          "py": "biāo zhǔn",
+          "en": "standard"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "只",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "对",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "贵",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "现在",
+          "py": "xiàn zài",
+          "en": "now"
+        },
+        {
+          "zh": "网上",
+          "py": "wǎng shàng",
+          "en": "online"
+        },
+        {
+          "zh": "购物",
+          "py": "gòu wù",
+          "en": "shopping"
+        },
+        {
+          "zh": "很",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "方便",
+          "py": "fāng biàn",
+          "en": "convenient"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "但",
+          "py": "dàn",
+          "en": "but"
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "dōng xi",
+          "en": "things"
+        },
+        {
+          "zh": "以前",
+          "py": "yǐ qián",
+          "en": "before"
+        },
+        {
+          "zh": "一定",
+          "py": "yí dìng",
+          "en": "must"
+        },
+        {
+          "zh": "要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做好",
+          "py": "zuò hǎo",
+          "en": "do well"
+        },
+        {
+          "zh": "准备",
+          "py": "zhǔn bèi",
+          "en": "preparation"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "实际",
+          "py": "shí jì",
+          "en": "actually"
+        },
+        {
+          "zh": "了解",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "和",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "价格",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "尤其",
+          "py": "yóu qí",
+          "en": "especially"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "衣服",
+          "py": "yī fu",
+          "en": "clothes"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时候",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "——",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "标准",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一样",
+          "py": "yí yàng",
+          "en": "same"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "再说",
+          "py": "zài shuō",
+          "en": "besides"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "贵",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不一定",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "适合",
+          "py": "shì hé",
+          "en": "suit"
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "便宜",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不一定",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "差",
+          "py": "chà",
+          "en": "bad"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "以前",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "想",
+          "py": "xiǎng",
+          "en": "think"
+        },
+        {
+          "zh": "一想",
+          "py": "yì xiǎng",
+          "en": "a bit"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "比",
+          "py": "bǐ",
+          "en": "compare"
+        },
+        {
+          "zh": "一比",
+          "py": "yì bǐ",
+          "en": "compare a bit"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "肯定",
+          "py": "kěn dìng",
+          "en": "surely"
+        },
+        {
+          "zh": "会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "到",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "对",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-quality",
+    "title": "一分钱一分货",
+    "titleEn": "You Get What You Pay For",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "李进的行李箱的价格是其他箱子的____。",
+        "opts": [
+          "三倍",
+          "一半",
+          "十倍",
+          "一样"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "十年里，他的朋友换了____次便宜的箱子。",
+        "opts": [
+          "三",
+          "一",
+          "十",
+          "八"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "在质量好的情况下，价格贵一点儿也是____的。",
+        "opts": [
+          "值得",
+          "浪费",
+          "可怕",
+          "奇怪"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "买东西的时候，首先要看____，其次要看价格。",
+        "opts": [
+          "质量",
+          "颜色",
+          "牌子",
+          "大小"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "李进的行李箱用了十年就坏了。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "朋友都说李进买贵了。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "所有贵的东西质量都好。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "其中最主要的是东西适不适合自己。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "这",
+          "就是",
+          "一分钱",
+          "一分货"
+        ],
+        "a": [
+          "这",
+          "就是",
+          "一分钱",
+          "一分货"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "质量",
+          "比",
+          "价格",
+          "更",
+          "重要"
+        ],
+        "a": [
+          "质量",
+          "比",
+          "价格",
+          "更",
+          "重要"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 6 课 一分钱一分货",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Li Jin's suitcase has been used for ten years and is still not broken at all. When he bought it, its price was three times that of other suitcases; his friends all said he had paid too much, but Li Jin felt he had got a bargain. Why? Because he did the math: in those ten years his friends changed cheap suitcases three times and spent about the same in total, but the quality was far worse. You get what you pay for: when the quality is good, a somewhat higher price is worth it. Of course, not everything expensive is good in quality. When shopping, first look at quality, then price — and the most important thing among them is whether it suits you.",
+    "paragraphs": [
+      [
+        {
+          "zh": "李进",
+          "py": "Lǐ Jìn",
+          "en": "Li Jin"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "行李箱",
+          "py": "xíng li xiāng",
+          "en": "suitcase"
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "use"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "十年",
+          "py": "shí nián",
+          "en": "ten years"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "竟然",
+          "py": "jìng rán",
+          "en": "unexpectedly"
+        },
+        {
+          "zh": "一点儿",
+          "py": "yì diǎnr",
+          "en": "a bit"
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "没",
+          "py": "méi",
+          "en": "not"
+        },
+        {
+          "zh": "坏",
+          "py": "huài",
+          "en": "broken"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时候",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "价格",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其他",
+          "py": "qí tā",
+          "en": "other"
+        },
+        {
+          "zh": "箱子",
+          "py": "xiāng zi",
+          "en": "case"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "三倍",
+          "py": "sān bèi",
+          "en": "three times"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "贵",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "李进",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "觉得",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "赚钱",
+          "py": "zhuàn le",
+          "en": "made a gain"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "为什么",
+          "py": "wèi shén me",
+          "en": "why"
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "因为",
+          "py": "yīn wèi",
+          "en": "because"
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "算",
+          "py": "suàn",
+          "en": "calculate"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "算",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "十",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "年",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "里",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "换",
+          "py": "huàn",
+          "en": "change"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "三次",
+          "py": "sān cì",
+          "en": "three times"
+        },
+        {
+          "zh": "便宜",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "箱子",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "花",
+          "py": "huā",
+          "en": "spend"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "钱",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其实",
+          "py": "qí shí",
+          "en": "in fact"
+        },
+        {
+          "zh": "差不多",
+          "py": "chà bu duō",
+          "en": "about the same"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "差",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "远了",
+          "py": "yuǎn le",
+          "en": "by far"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "分",
+          "py": "fēn",
+          "en": "cent"
+        },
+        {
+          "zh": "钱",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "分",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "货",
+          "py": "huò",
+          "en": "goods"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "情况",
+          "py": "qíng kuàng",
+          "en": "situation"
+        },
+        {
+          "zh": "下",
+          "py": "xià",
+          "en": "under"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "价格",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "贵",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一点儿",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "值得",
+          "py": "zhí de",
+          "en": "worth it"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "当然",
+          "py": "dāng rán",
+          "en": "of course"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "并",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "所有",
+          "py": "suǒ yǒu",
+          "en": "all"
+        },
+        {
+          "zh": "贵",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "买",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "东西",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时候",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "首先",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "kàn",
+          "en": "look at"
+        },
+        {
+          "zh": "质量",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其次",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "价格",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其中",
+          "py": "qí zhōng",
+          "en": "among them"
+        },
+        {
+          "zh": "最",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "主要",
+          "py": "zhǔ yào",
+          "en": "main"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "适合",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "适合",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-health",
+    "title": "最好的医生是自己",
+    "titleEn": "The Best Doctor Is Yourself",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "医生估计小李的问题是平时____。",
+        "opts": [
+          "运动太少、睡觉太晚",
+          "吃得太少",
+          "工作太累",
+          "喝水太少"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "医生说最好的医生是____。",
+        "opts": [
+          "你自己",
+          "老师",
+          "爸爸",
+          "护士"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "小李每天早上跟邻居的老人们一起打____。",
+        "opts": [
+          "太极拳",
+          "篮球",
+          "游戏",
+          "电话"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "打太极拳既锻炼了身体，又呼吸了新鲜的____。",
+        "opts": [
+          "空气",
+          "水",
+          "饭",
+          "药"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "医生检查出小李的身体有大问题。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "医生说别等来不及了才想起健康的重要。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "小李现在遇到不高兴的事情还会生气。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "小李的脾气比以前好多了。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "最好",
+          "的",
+          "医生",
+          "是",
+          "自己"
+        ],
+        "a": [
+          "最好",
+          "的",
+          "医生",
+          "是",
+          "自己"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "我",
+          "每天",
+          "都",
+          "坚持",
+          "锻炼"
+        ],
+        "a": [
+          "我",
+          "每天",
+          "都",
+          "坚持",
+          "锻炼"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 7 课 最好的医生是自己",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Xiao Li always felt tired recently and often caught colds. After examining him, the doctor said: 'There is nothing seriously wrong with your body. I guess it's because you usually exercise too little and sleep too late. In fact, the best doctor is yourself. If you keep exercising every day, most illnesses simply will not find you. Don't wait until it is too late to remember how important health is.' From that day on, Xiao Li practiced taiji with his elderly neighbours every morning, which both exercised his body and let him breathe fresh air. When something unpleasant happens, he no longer gets angry, and his temper is much better than before.",
+    "paragraphs": [
+      [
+        {
+          "zh": "小李",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最近",
+          "py": "zuì jìn",
+          "en": "recently"
+        },
+        {
+          "zh": "总是",
+          "py": "zǒng shì",
+          "en": "always"
+        },
+        {
+          "zh": "觉得",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "累",
+          "py": "lèi",
+          "en": "tired"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "还",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "常常",
+          "py": "cháng cháng",
+          "en": "often"
+        },
+        {
+          "zh": "感冒",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "医生",
+          "py": "yī shēng",
+          "en": "doctor"
+        },
+        {
+          "zh": "检查",
+          "py": "jiǎn chá",
+          "en": "examine"
+        },
+        {
+          "zh": "以后",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "身体",
+          "py": "shēn tǐ",
+          "en": "body"
+        },
+        {
+          "zh": "并",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "没有",
+          "py": "méi yǒu",
+          "en": "not have"
+        },
+        {
+          "zh": "大",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "问题",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "估计",
+          "py": "gū jì",
+          "en": "I guess"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "平时",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "运动",
+          "py": "yùn dòng",
+          "en": "exercise"
+        },
+        {
+          "zh": "太",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "少",
+          "py": "shǎo",
+          "en": "little"
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "睡觉",
+          "py": "shuì jiào",
+          "en": "sleep"
+        },
+        {
+          "zh": "太",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "晚",
+          "py": "wǎn",
+          "en": "late"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "原因",
+          "py": "yuán yin",
+          "en": "reason"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "医生",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "yòu",
+          "en": "again"
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其实",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "最好",
+          "py": "zuì hǎo",
+          "en": "best"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "医生",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "要是",
+          "py": "yào shi",
+          "en": "if"
+        },
+        {
+          "zh": "平时",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "坚持",
+          "py": "jiān chí",
+          "en": "persist"
+        },
+        {
+          "zh": "每天",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "锻炼",
+          "py": "duàn liàn",
+          "en": "work out"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "很多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "病",
+          "py": "bìng",
+          "en": "illness"
+        },
+        {
+          "zh": "根本",
+          "py": "gēn běn",
+          "en": "simply"
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "找",
+          "py": "zhǎo",
+          "en": "come to"
+        },
+        {
+          "zh": "上",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "别",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "等",
+          "py": "děng",
+          "en": "wait"
+        },
+        {
+          "zh": "来不及",
+          "py": "lái bu jí",
+          "en": "too late"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "才",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "想起",
+          "py": "xiǎng qǐ",
+          "en": "remember"
+        },
+        {
+          "zh": "健康",
+          "py": "jiàn kāng",
+          "en": "health"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "从",
+          "py": "cóng",
+          "en": "from"
+        },
+        {
+          "zh": "那天",
+          "py": "nà tiān",
+          "en": "that day"
+        },
+        {
+          "zh": "起",
+          "py": "qǐ",
+          "en": "on"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "小李",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每天",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "早上",
+          "py": "zǎo shang",
+          "en": "morning"
+        },
+        {
+          "zh": "跟",
+          "py": "gēn",
+          "en": "with"
+        },
+        {
+          "zh": "邻居",
+          "py": "lín jū",
+          "en": "neighbour"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "老人",
+          "py": "lǎo rén",
+          "en": "elderly"
+        },
+        {
+          "zh": "们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一起",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "打",
+          "py": "dǎ",
+          "en": "play"
+        },
+        {
+          "zh": "太极拳",
+          "py": "tài jí quán",
+          "en": "taiji"
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "既",
+          "py": "jì",
+          "en": "both"
+        },
+        {
+          "zh": "锻炼",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "身体",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "又",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "呼吸",
+          "py": "hū xī",
+          "en": "breathe"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "新鲜",
+          "py": "xīn xiān",
+          "en": "fresh"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "空气",
+          "py": "kōng qì",
+          "en": "air"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "遇到",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "高兴",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "事情",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "再",
+          "py": "zài",
+          "en": "anymore"
+        },
+        {
+          "zh": "生气",
+          "py": "shēng qì",
+          "en": "get angry"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "脾气",
+          "py": "pí qi",
+          "en": "temper"
+        },
+        {
+          "zh": "比",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "以前",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "多了",
+          "py": "duō le",
+          "en": "much"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-beauty",
+    "title": "生活中不缺少美",
+    "titleEn": "Beauty Is Not Rare in Life",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "生活中并不缺少美，缺少的是发现美的____。",
+        "opts": [
+          "眼睛",
+          "钱",
+          "时间",
+          "照片"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "只要____，美就在我们身边。",
+        "opts": [
+          "用心",
+          "花钱",
+          "旅行",
+          "工作"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "堵车使大家的____变坏。",
+        "opts": [
+          "心情",
+          "身体",
+          "衣服",
+          "胃口"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "在中国文化里，“红”往往使人想到____的事。",
+        "opts": [
+          "高兴",
+          "难过",
+          "可怕",
+          "奇怪"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "小夏觉得路上没有什么美的东西。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "小夏在堵车的时候看到了特别美的天空颜色。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "美往往就在你的心里。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "在中国文化里，“白”往往使人想到高兴的事。",
+        "a": false
+      },
+      {
+        "type": "order",
+        "words": [
+          "生活",
+          "中",
+          "不",
+          "缺少",
+          "美"
+        ],
+        "a": [
+          "生活",
+          "中",
+          "不",
+          "缺少",
+          "美"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "只要",
+          "用心",
+          "美",
+          "就",
+          "在",
+          "身边"
+        ],
+        "a": [
+          "只要",
+          "用心",
+          "美",
+          "就",
+          "在",
+          "身边"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 8 课 生活中不缺少美",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Life does not lack beauty — what is lacking is the eye that discovers it. As long as you are attentive, beauty is right beside us. 'Exactly!' said Xiaoxia. 'Yesterday the road was jammed and so many people were angry, but I saw the especially beautiful colours of the sky.' A traffic jam puts everyone in a bad mood, yet beauty is often right in your heart. So what matters is not what happens, but the attitude with which you look at it. In Chinese culture, for example, red often makes people think of happy things, while white often makes people think of sad ones.",
+    "paragraphs": [
+      [
+        {
+          "zh": "生活",
+          "py": "shēng huó",
+          "en": "life"
+        },
+        {
+          "zh": "中",
+          "py": "zhōng",
+          "en": "in"
+        },
+        {
+          "zh": "并",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "缺少",
+          "py": "quē shǎo",
+          "en": "lack"
+        },
+        {
+          "zh": "美",
+          "py": "měi",
+          "en": "beauty"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "缺少",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "发现",
+          "py": "fā xiàn",
+          "en": "discover"
+        },
+        {
+          "zh": "美",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "眼睛",
+          "py": "yǎn jing",
+          "en": "eye"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "只要",
+          "py": "zhǐ yào",
+          "en": "as long as"
+        },
+        {
+          "zh": "用心",
+          "py": "yòng xīn",
+          "en": "attentively"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "美",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我们",
+          "py": "wǒ men",
+          "en": "we"
+        },
+        {
+          "zh": "身边",
+          "py": "shēn biān",
+          "en": "beside us"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "小夏",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可不是",
+          "py": "kě bú shì",
+          "en": "exactly"
+        },
+        {
+          "zh": "嘛",
+          "py": "ma",
+          "en": "(particle)"
+        },
+        {
+          "zh": "！",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "昨天",
+          "py": "zuó tiān",
+          "en": "yesterday"
+        },
+        {
+          "zh": "路上",
+          "py": "lù shang",
+          "en": "on the road"
+        },
+        {
+          "zh": "堵车",
+          "py": "dǔ chē",
+          "en": "traffic jam"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "那么",
+          "py": "nà me",
+          "en": "so"
+        },
+        {
+          "zh": "多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "生气",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "我",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "却",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看到",
+          "py": "kàn dào",
+          "en": "see"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "特别",
+          "py": "tè bié",
+          "en": "especially"
+        },
+        {
+          "zh": "美",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "天空",
+          "py": "tiān kōng",
+          "en": "sky"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "颜色",
+          "py": "yán sè",
+          "en": "colour"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "堵车",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "使",
+          "py": "shǐ",
+          "en": "make"
+        },
+        {
+          "zh": "大家",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "心情",
+          "py": "xīn qíng",
+          "en": "mood"
+        },
+        {
+          "zh": "变",
+          "py": "biàn",
+          "en": "become"
+        },
+        {
+          "zh": "坏",
+          "py": "huài",
+          "en": "bad"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "而",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "美",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "往往",
+          "py": "wǎng wǎng",
+          "en": "often"
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "心里",
+          "py": "xīn lǐ",
+          "en": "in the heart"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "因此",
+          "py": "yīn cǐ",
+          "en": "therefore"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "发生",
+          "py": "fā shēng",
+          "en": "happen"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "什么",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "而",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "用",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "什么",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "态度",
+          "py": "tài du",
+          "en": "attitude"
+        },
+        {
+          "zh": "去",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "它",
+          "py": "tā",
+          "en": "it"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "中国",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "文化",
+          "py": "wén huà",
+          "en": "culture"
+        },
+        {
+          "zh": "里",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "比如",
+          "py": "bǐ rú",
+          "en": "for example"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "红",
+          "py": "hóng",
+          "en": "red"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "往往",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "使",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "rén",
+          "en": "people"
+        },
+        {
+          "zh": "想到",
+          "py": "xiǎng dào",
+          "en": "think of"
+        },
+        {
+          "zh": "高兴",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "事",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "白",
+          "py": "bái",
+          "en": "white"
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "却",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "往往",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "使",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "想到",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "难过",
+          "py": "nán guò",
+          "en": "sad"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "事",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-storm",
+    "title": "阳光总在风雨后",
+    "titleEn": "The Sun Always Comes After the Storm",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "孙月半年前决定____。",
+        "opts": [
+          "减肥",
+          "结婚",
+          "旅行",
+          "换工作"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "通过半年的坚持，她瘦了____公斤。",
+        "opts": [
+          "八",
+          "十八",
+          "三",
+          "八十"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "她把自己的____发到网上，鼓励了很多人。",
+        "opts": [
+          "经历",
+          "照片",
+          "钱",
+          "礼物"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "“阳光总在____。”",
+        "opts": [
+          "风雨后",
+          "家里",
+          "晚上",
+          "冬天"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "朋友们一开始都相信孙月能坚持下来。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "跑步累了的时候，孙月也想过放弃。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "减肥的效果特别好。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "她的经历没有鼓励任何人。",
+        "a": false
+      },
+      {
+        "type": "order",
+        "words": [
+          "阳光",
+          "总是",
+          "在",
+          "风雨",
+          "后"
+        ],
+        "a": [
+          "阳光",
+          "总是",
+          "在",
+          "风雨",
+          "后"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "坚持",
+          "就",
+          "会",
+          "有",
+          "好",
+          "结果"
+        ],
+        "a": [
+          "坚持",
+          "就",
+          "会",
+          "有",
+          "好",
+          "结果"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 9 课 阳光总在风雨后",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "Sun Yue used to be rather overweight and her health was not good. Half a year ago she decided to lose weight. At the beginning, her friends did not believe her: 'Can you really keep it up?' Keeping exercising was not easy: when running made her tired, she too thought about giving up; but every time she told herself — the sun always comes after the storm; if I give up now, all my earlier effort will have been for nothing. Through half a year of persistence, the results were especially good: she lost eight kilos and became healthy. She posted her experience online, and as a result many people were encouraged by it.",
+    "paragraphs": [
+      [
+        {
+          "zh": "孙月",
+          "py": "Sūn Yuè",
+          "en": "Sun Yue"
+        },
+        {
+          "zh": "以前",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "比较",
+          "py": "bǐ jiào",
+          "en": "comparatively"
+        },
+        {
+          "zh": "胖",
+          "py": "pàng",
+          "en": "overweight"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "身体",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "半年",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "前",
+          "py": "qián",
+          "en": "ago"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "决定",
+          "py": "jué dìng",
+          "en": "decide"
+        },
+        {
+          "zh": "减肥",
+          "py": "jiǎn féi",
+          "en": "lose weight"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "刚",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "开始",
+          "py": "kāi shǐ",
+          "en": "begin"
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时候",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "朋友",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "相信",
+          "py": "xiāng xìn",
+          "en": "believe"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "难道",
+          "py": "nán dào",
+          "en": "could it be"
+        },
+        {
+          "zh": "你",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "真的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "能",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "坚持",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "下来",
+          "py": "xià lái",
+          "en": "through"
+        },
+        {
+          "zh": "吗",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "坚持",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "运动",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "并",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "容易",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "跑",
+          "py": "pǎo",
+          "en": "run"
+        },
+        {
+          "zh": "步",
+          "py": "bù",
+          "en": "step"
+        },
+        {
+          "zh": "累",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "想",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "过",
+          "py": "guo",
+          "en": "(experienced)"
+        },
+        {
+          "zh": "放弃",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "；",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "可是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每次",
+          "py": "měi cì",
+          "en": "every time"
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "想",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "阳光",
+          "py": "yáng guāng",
+          "en": "sunshine"
+        },
+        {
+          "zh": "总",
+          "py": "zǒng",
+          "en": "always"
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "风雨",
+          "py": "fēng yǔ",
+          "en": "storm"
+        },
+        {
+          "zh": "后",
+          "py": "hòu",
+          "en": "after"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "如果",
+          "py": "rú guǒ",
+          "en": "if"
+        },
+        {
+          "zh": "现在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "放弃",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "以前",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "努力",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "没",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "用",
+          "py": "yòng",
+          "en": "use"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "”",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "通过",
+          "py": "tōng guò",
+          "en": "through"
+        },
+        {
+          "zh": "半年",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "坚持",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "效果",
+          "py": "xiào guǒ",
+          "en": "result"
+        },
+        {
+          "zh": "特别",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "好",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "瘦",
+          "py": "shòu",
+          "en": "thin"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "八",
+          "py": "bā",
+          "en": "eight"
+        },
+        {
+          "zh": "公斤",
+          "py": "gōng jīn",
+          "en": "kilo"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "身体",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "健康",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "把",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "自己",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经历",
+          "py": "jīng lì",
+          "en": "experience"
+        },
+        {
+          "zh": "发",
+          "py": "fā",
+          "en": "post"
+        },
+        {
+          "zh": "到",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "网上",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "结果",
+          "py": "jié guǒ",
+          "en": "as a result"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "很多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "被",
+          "py": "bèi",
+          "en": "by"
+        },
+        {
+          "zh": "她",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经历",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "鼓励",
+          "py": "gǔ lì",
+          "en": "encourage"
+        },
+        {
+          "zh": "了",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
+    "id": "tb4-happiness",
+    "title": "幸福的标准",
+    "titleEn": "Standards of Happiness",
+    "level": 4,
+    "quiz": [
+      {
+        "type": "choice",
+        "q": "在____看来，健康和家人最重要。",
+        "opts": [
+          "爷爷",
+          "妈妈",
+          "小雨",
+          "王经理"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "由于工作忙，年轻人____的时间越来越少。",
+        "opts": [
+          "回家",
+          "运动",
+          "看电视",
+          "旅行"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "在妈妈看来，幸福其实很____。",
+        "opts": [
+          "简单",
+          "复杂",
+          "贵",
+          "远"
+        ],
+        "a": 0
+      },
+      {
+        "type": "choice",
+        "q": "爷爷常说“____”。",
+        "opts": [
+          "知足常乐",
+          "一分钱一分货",
+          "阳光总在风雨后",
+          "授人以鱼"
+        ],
+        "a": 0
+      },
+      {
+        "type": "tf",
+        "q": "每个人幸福的标准都一样。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "年轻人一有时间就会回家陪父母吃饭。",
+        "a": true
+      },
+      {
+        "type": "tf",
+        "q": "妈妈觉得幸福是很难的事。",
+        "a": false
+      },
+      {
+        "type": "tf",
+        "q": "一个人钱再多，要是不知足，也永远觉得不幸福。",
+        "a": true
+      },
+      {
+        "type": "order",
+        "words": [
+          "在",
+          "我",
+          "看来",
+          "健康",
+          "最",
+          "重要"
+        ],
+        "a": [
+          "在",
+          "我",
+          "看来",
+          "健康",
+          "最",
+          "重要"
+        ]
+      },
+      {
+        "type": "order",
+        "words": [
+          "我",
+          "觉得",
+          "自己",
+          "很",
+          "幸福"
+        ],
+        "a": [
+          "我",
+          "觉得",
+          "自己",
+          "很",
+          "幸福"
+        ]
+      }
+    ],
+    "source": {
+      "name": "HSK 标准教程 4 上 · 第 10 课 幸福的标准",
+      "url": "https://thanhtoantnt.github.io/mandarin-reading/hsk4-textbook/"
+    },
+    "license": "原创",
+    "english": "What is happiness? Everyone's standard is different. In Grandpa's view, health and family matter most. Because work is busy, young people have less and less time to go home; however, whenever they have time, they go back to eat with their parents. In Mum's view, happiness is actually very simple: for example, the whole family cooking a meal together, taking a walk in the park at the weekend, or watching a TV series together in the evening. Grandpa often says 'contentment brings lasting happiness'. Indeed, economic needs are important, but happiness is more a feeling in the heart: however much experience or money a person has, if he is not content, he will never feel happy.",
+    "paragraphs": [
+      [
+        {
+          "zh": "什么",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "幸福",
+          "py": "xìng fú",
+          "en": "happiness"
+        },
+        {
+          "zh": "？",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "每个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "标准",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "都",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一样",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "爷爷",
+          "py": "yé ye",
+          "en": "grandpa"
+        },
+        {
+          "zh": "看来",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "健康",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "和",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "家人",
+          "py": "jiā rén",
+          "en": "family"
+        },
+        {
+          "zh": "最",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "；",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "由于",
+          "py": "yóu yú",
+          "en": "because of"
+        },
+        {
+          "zh": "工作",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "忙",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "年轻",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "回家",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时间",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "越来越",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "少",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不过",
+          "py": "bù guò",
+          "en": "however"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "有",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "时间",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "他们",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "就",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "会",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "回",
+          "py": "huí",
+          "en": "return"
+        },
+        {
+          "zh": "家",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "陪",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "父母",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "吃饭",
+          "py": "chī fàn",
+          "en": "eat"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "在",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "妈妈",
+          "py": "mā ma",
+          "en": "mum"
+        },
+        {
+          "zh": "看来",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "幸福",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "其实",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "很",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "简单",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "比如",
+          "py": "bǐ rú",
+          "en": "for example"
+        },
+        {
+          "zh": "全家",
+          "py": "quán jiā",
+          "en": "whole family"
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一起",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "做",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "顿",
+          "py": "dùn",
+          "en": "(measure for meals)"
+        },
+        {
+          "zh": "饭",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "周末",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "去",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "公园",
+          "py": "gōng yuán",
+          "en": "park"
+        },
+        {
+          "zh": "散步",
+          "py": "sàn bù",
+          "en": "take a walk"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "晚上",
+          "py": "wǎn shang",
+          "en": "evening"
+        },
+        {
+          "zh": "一起",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "看",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "电视剧",
+          "py": "diàn shì jù",
+          "en": "TV series"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ],
+      [
+        {
+          "zh": "爷爷",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "常",
+          "py": "cháng",
+          "en": "often"
+        },
+        {
+          "zh": "说",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "“",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "知足常乐",
+          "py": "zhī zú cháng lè",
+          "en": "contentment brings happiness"
+        },
+        {
+          "zh": "”：",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "确实",
+          "py": "què shí",
+          "en": "indeed"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经济",
+          "py": "jīng jì",
+          "en": "economic"
+        },
+        {
+          "zh": "上",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "需要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "重要",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "但",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "幸福",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "更",
+          "py": "gèng",
+          "en": "even more"
+        },
+        {
+          "zh": "是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "心里",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "的",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "种",
+          "py": "zhǒng",
+          "en": "kind"
+        },
+        {
+          "zh": "感觉",
+          "py": "gǎn jué",
+          "en": "feeling"
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "一个",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "人",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "经历",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "再",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "、",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "钱",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "再",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "多",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "要是",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "知足",
+          "py": "zhī zú",
+          "en": "content"
+        },
+        {
+          "zh": "，",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "也",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "永远",
+          "py": "yǒng yuǎn",
+          "en": "forever"
+        },
+        {
+          "zh": "觉得",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "不",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "幸福",
+          "py": "",
+          "en": ""
+        },
+        {
+          "zh": "。",
+          "py": "",
+          "en": ""
+        }
+      ]
+    ]
+  },
+  {
     "id": "great-wall",
     "title": "长城",
     "titleEn": "The Great Wall",

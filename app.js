@@ -245,6 +245,9 @@ function renderRead(id) {
   }
   document.body.classList.toggle("pinyin-on", state.pinyin);
   const done = state.done.includes(text.id);
+  const sourceNote = text.license === "原创"
+    ? `本文为原创阅读，主题来自<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>`
+    : `本文改写自：<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>（${text.license}）— 阅读原文`;
   document.getElementById("app").innerHTML = `
     ${nav(text.level)}
     <div class="wrap narrow">
@@ -257,7 +260,7 @@ function renderRead(id) {
         <header class="reader-head">
           <h1>${text.title}</h1>
           <p class="meta">${text.titleEn} · HSK ${text.level}</p>
-          <p class="source">本文改写自：<a href="${text.source.url}" target="_blank" rel="noopener">${text.source.name}</a>（${text.license}）— 阅读原文</p>
+          <p class="source">${sourceNote}</p>
         </header>
         <div id="text" class="text"></div>
         <p id="english" class="english"${state.english ? "" : " hidden"}>${text.english}</p>

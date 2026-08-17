@@ -449,6 +449,8 @@ function wbRow(w) {
 
 function renderWorkbook(n) {
   const wb = window.WB4 || [];
+  const a = wb.filter((w) => w.n <= 10);
+  const b = wb.filter((w) => w.n > 10);
   const lesson = n ? wb.find((w) => String(w.n) === n) : null;
   if (lesson) {
     document.getElementById("app").innerHTML = `
@@ -468,24 +470,34 @@ function renderWorkbook(n) {
     ${nav("wb4")}
     <div class="wrap">
       <div class="page-head">
-        <h1>HSK 标准教程 4 上 · 练习册</h1>
-        <p>${wb.length} 课 · ${wb.reduce((s, w) => s + w.quiz.length, 0)} 题 · <a href="${href("/HSK-4A-Workbook.md")}">workbook map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
+        <h1>HSK 标准教程 4 上／下 · 练习册</h1>
+        <p>${wb.length} 课 · ${wb.reduce((s, w) => s + w.quiz.length, 0)} 题 · <a href="${href("/HSK-4A-Workbook.md")}">上册 map</a> · <a href="${href("/HSK-4B-Workbook.md")}">下册 map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
       </div>
       <p class="meta">题目录自练习册(阅读23–43、书写44–48)。听力1–22需音频、49–50看图造句,未收录;练习册未附答案,本页答案为整理所得;个别扫描不清的词语按课本词表复原,个别选项从略。</p>
       <div class="list">
-        <div>${wb.map(wbRow).join("")}</div>
+        <div class="list-head"><h2>上册 · Lessons 1–10</h2></div>
+        <div>${a.map(wbRow).join("")}</div>
+      </div>
+      <div class="list">
+        <div class="list-head"><h2>下册 · Lessons 11–20</h2></div>
+        <div>${b.map(wbRow).join("")}</div>
       </div>
     </div>
     <div class="wrap narrow">
       <div class="list">
-        <div class="list-head"><h2>练习册 · Workbook map · HSK-4A</h2></div>
+        <div class="list-head"><h2>练习册 · Workbook maps · 上＋下</h2></div>
       </div>
       <article class="md" id="wb">Loading…</article>
+      <article class="md" id="wb2">Loading…</article>
     </div>`;
   fetch(href("/HSK-4A-Workbook.md"))
     .then((r) => r.ok ? r.text() : Promise.reject())
     .then((t) => { document.getElementById("wb").innerHTML = md(t); })
     .catch(() => { document.getElementById("wb").textContent = "Could not load HSK-4A-Workbook.md"; });
+  fetch(href("/HSK-4B-Workbook.md"))
+    .then((r) => r.ok ? r.text() : Promise.reject())
+    .then((t) => { document.getElementById("wb2").innerHTML = md(t); })
+    .catch(() => { document.getElementById("wb2").textContent = "Could not load HSK-4B-Workbook.md"; });
 }
 
 const r = route();

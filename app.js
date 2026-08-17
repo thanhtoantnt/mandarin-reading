@@ -384,10 +384,17 @@ function md(src) {
 }
 
 function renderTextbook() {
+  const readings = TEXTS.filter((t) => t.id.startsWith("tb4-"))
+    .map(lessonRow)
+    .join("");
   document.getElementById("app").innerHTML = `
     ${nav("tb4")}
     <div class="wrap narrow">
       <article class="md" id="tb">Loading…</article>
+      <div class="list">
+        <div class="list-head"><h2>配套阅读 · Companion readings</h2></div>
+        <div>${readings}</div>
+      </div>
     </div>`;
   fetch(href("/HSK-4A-Textbook.md"))
     .then((r) => r.ok ? r.text() : Promise.reject())

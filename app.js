@@ -482,22 +482,7 @@ function renderWorkbook(n) {
         <div class="list-head"><h2>下册 · Lessons 11–20</h2></div>
         <div>${b.map(wbRow).join("")}</div>
       </div>
-    </div>
-    <div class="wrap narrow">
-      <div class="list">
-        <div class="list-head"><h2>练习册 · Workbook maps · 上＋下</h2></div>
-      </div>
-      <article class="md" id="wb">Loading…</article>
-      <article class="md" id="wb2">Loading…</article>
     </div>`;
-  fetch(href("/HSK-4A-Workbook.md"))
-    .then((r) => r.ok ? r.text() : Promise.reject())
-    .then((t) => { document.getElementById("wb").innerHTML = md(t); })
-    .catch(() => { document.getElementById("wb").textContent = "Could not load HSK-4A-Workbook.md"; });
-  fetch(href("/HSK-4B-Workbook.md"))
-    .then((r) => r.ok ? r.text() : Promise.reject())
-    .then((t) => { document.getElementById("wb2").innerHTML = md(t); })
-    .catch(() => { document.getElementById("wb2").textContent = "Could not load HSK-4B-Workbook.md"; });
 }
 
 const r = route();

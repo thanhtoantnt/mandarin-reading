@@ -13,6 +13,9 @@ const state = Object.assign(
   { textId: TEXTS[0].id, done: [], pinyin: false, english: false },
   loadState()
 );
+const known = new Set(TEXTS.map((t) => t.id));
+if (!known.has(state.textId)) state.textId = TEXTS[0].id;
+state.done = state.done.filter((id) => known.has(id));
 
 const $ = (id) => document.getElementById(id);
 const lessonsEl = $("lessons");

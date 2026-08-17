@@ -1,6 +1,6 @@
 # 读中文 · Mandarin Reading
 
-Tap-to-gloss graded readers for learning to read Mandarin.
+Tap-to-gloss graded readers for HSK 4, 5, and 6.
 
 **Live site:** https://thanhtoantnt.github.io/mandarin-reading/
 
@@ -19,7 +19,7 @@ Append an object to `TEXTS` in `texts.js`:
   id: "park",
   title: "公园",
   titleEn: "The park",
-  level: 2,
+  level: 4,
   english: "Full English translation.",
   paragraphs: [
     [

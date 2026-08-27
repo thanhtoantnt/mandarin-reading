@@ -29,6 +29,7 @@ function route() {
   if (/\/hsk4-workbook\/?$/.test(p)) {
     return { kind: "workbook", n: new URLSearchParams(location.search).get("n") };
   }
+  if (/\/hsk5-textbook\/?$/.test(p)) return { kind: "tb5" };
   const m = p.match(/\/hsk([456])\/?$/);
   if (m) return { kind: "level", level: Number(m[1]) };
   if (/\/lesson\/?$/.test(p)) {
@@ -43,7 +44,8 @@ function nav(active) {
     return `<a class="${on}" href="${href("/hsk" + n + "/")}">HSK ${n}</a>`;
   }).join("") +
     `<a class="${active === "tb4" ? " active" : ""}" href="${href("/hsk4-textbook/")}">HSK4 Textbook</a>` +
-    `<a class="${active === "wb4" ? " active" : ""}" href="${href("/hsk4-workbook/")}">HSK4 Workbook</a>`;
+    `<a class="${active === "wb4" ? " active" : ""}" href="${href("/hsk4-workbook/")}">HSK4 Workbook</a>` +
+    `<a class="${active === "tb5" ? " active" : ""}" href="${href("/hsk5-textbook/")}">HSK5 Textbook</a>`;
   return `
     <nav class="nav">
       <div class="nav-inner">
@@ -308,18 +310,21 @@ function renderRead(id) {
   };
   if (text.sections) {
     // HSK 标准教程 4 上 only: 课文 audio lives at audio/hsk4a/hsk4A-textbook-LLNN.mp3 (LL=lesson, NN=课文).
-    const tb4lesson = text.id.startsWith("tb4-") ? (text.source.name.match(/第 (\d+) 课/) || [])[1] : null;
+    // 课文 audio: tb4- → audio/hsk4a/ (5 tracks/lesson), tb5- → audio/hsk5a/ (2 tracks/lesson).
+    const audio = text.id.startsWith("tb4-") ? { dir: "/audio/hsk4a/", base: "hsk4A-textbook-", lesson: (text.source.name.match(/第 (\d+) 课/) || [])[1], tracks: 5 }
+      : text.id.startsWith("tb5-") ? { dir: "/audio/hsk5a/", base: "hsk5A-textbook-", lesson: String(text.n).padStart(2, "0"), tracks: text.n === 7 ? 4 : 2 }
+      : null;
     text.sections.forEach((sec, i) => {
       const h = document.createElement("h3");
       h.className = "sec-title";
       h.textContent = sec.title;
       textEl.append(h);
-      if (tb4lesson && i < 5) {
+      if (audio && i < audio.tracks) {
         const a = document.createElement("audio");
         a.controls = true;
         a.preload = "none";
         a.className = "sec-audio";
-        a.src = href("/audio/hsk4a/hsk4A-textbook-" + tb4lesson.padStart(2, "0") + String(i + 1).padStart(2, "0") + ".mp3");
+        a.src = href(audio.dir + audio.base + audio.lesson + String(i + 1).padStart(2, "0") + ".mp3");
         textEl.append(a);
       }
       sec.paragraphs.forEach((para) => textEl.append(paraEl(para)));
@@ -420,6 +425,22 @@ function md(src) {
   return out.join("");
 }
 
+function renderTb5() {
+  const list = TEXTS.filter((t) => t.id.startsWith("tb5-"));
+  const read = list.filter((t) => state.done.includes(t.id)).length;
+  document.getElementById("app").innerHTML = `
+    ${nav("tb5")}
+    <div class="wrap">
+      <div class="page-head">
+        <h1>HSK 标准教程 5 上</h1>
+        <p>${list.length} / 18 lessons · ${read} read · 课文录音可播放 · <a href="${href("/hsk4-textbook/")}">HSK 4 课本</a></p>
+      </div>
+      <div class="list">
+        <div>${list.map(lessonRow).join("")}</div>
+      </div>
+    </div>`;
+}
+
 function renderTextbook() {
   const a = TEXTS.filter((t) => t.id.startsWith("tb4-"));
   const b = TEXTS.filter((t) => t.id.startsWith("tb4b-"));
@@ -509,4 +530,5 @@ if (r.kind === "level") renderLevel(r.level);
 else if (r.kind === "read") renderRead(r.id);
 else if (r.kind === "textbook") renderTextbook();
 else if (r.kind === "workbook") renderWorkbook(r.n);
+else if (r.kind === "tb5") renderTb5();
 else renderHome();

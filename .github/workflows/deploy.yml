@@ -25,7 +25,7 @@ jobs:
       - uses: actions/configure-pages@v6
       - name: Stage static site
         run: |
-          mkdir -p _site/hsk4 _site/hsk5 _site/hsk6 _site/hsk4-textbook _site/hsk4-workbook _site/lesson
+          mkdir -p _site/hsk4 _site/hsk5 _site/hsk6 _site/hsk4-textbook _site/hsk4-workbook _site/hsk5-textbook _site/lesson
           cp index.html styles.css app.js wb4.js HSK-4A-Textbook.md HSK-4A-Workbook.md HSK-4B-Textbook.md HSK-4B-Workbook.md _site/
           cp -r audio _site/audio
           node -e "const f=require('fs');eval(f.readFileSync('texts.js','utf8').replace('const TEXTS','globalThis.TEXTS'));f.writeFileSync('_site/texts.js','const TEXTS='+JSON.stringify(TEXTS)+';')"
@@ -39,6 +39,7 @@ jobs:
           cp _site/index.html _site/hsk4-textbook/index.html
           cp _site/index.html _site/hsk4-workbook/index.html
           cp _site/index.html _site/lesson/index.html
+          cp _site/index.html _site/hsk5-textbook/index.html
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@v5
         with:

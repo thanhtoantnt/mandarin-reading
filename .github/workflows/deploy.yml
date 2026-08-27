@@ -27,6 +27,7 @@ jobs:
         run: |
           mkdir -p _site/hsk4 _site/hsk5 _site/hsk6 _site/hsk4-textbook _site/hsk4-workbook _site/lesson
           cp index.html styles.css app.js wb4.js HSK-4A-Textbook.md HSK-4A-Workbook.md HSK-4B-Textbook.md HSK-4B-Workbook.md _site/
+          cp -r audio _site/audio
           node -e "const f=require('fs');eval(f.readFileSync('texts.js','utf8').replace('const TEXTS','globalThis.TEXTS'));f.writeFileSync('_site/texts.js','const TEXTS='+JSON.stringify(TEXTS)+';')"
           for f in texts.js app.js styles.css wb4.js; do
             v=$(md5sum _site/$f | cut -c1-8)

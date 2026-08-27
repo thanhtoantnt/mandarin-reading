@@ -312,3 +312,5 @@ body:not(.pinyin-on) rt { display: none; }
   .nav-inner { padding: 0 1rem; }
   .wrap { padding: 1.25rem 1rem 3rem; }
 }
+
+.sec-audio{display:block;width:100%;max-width:480px;height:36px;margin:.25rem 0 1rem}

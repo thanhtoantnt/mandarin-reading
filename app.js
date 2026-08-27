@@ -307,11 +307,21 @@ function renderRead(id) {
     return p;
   };
   if (text.sections) {
-    text.sections.forEach((sec) => {
+    // HSK 标准教程 4 上 only: 课文 audio lives at audio/hsk4a/hsk4A-textbook-LLNN.mp3 (LL=lesson, NN=课文).
+    const tb4lesson = text.id.startsWith("tb4-") ? (text.source.name.match(/第 (\d+) 课/) || [])[1] : null;
+    text.sections.forEach((sec, i) => {
       const h = document.createElement("h3");
       h.className = "sec-title";
       h.textContent = sec.title;
       textEl.append(h);
+      if (tb4lesson && i < 5) {
+        const a = document.createElement("audio");
+        a.controls = true;
+        a.preload = "none";
+        a.className = "sec-audio";
+        a.src = href("/audio/hsk4a/hsk4A-textbook-" + tb4lesson.padStart(2, "0") + String(i + 1).padStart(2, "0") + ".mp3");
+        textEl.append(a);
+      }
       sec.paragraphs.forEach((para) => textEl.append(paraEl(para)));
     });
   } else {

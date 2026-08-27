@@ -463,14 +463,23 @@ function renderWorkbook(n) {
   const b = wb.filter((w) => w.n > 10);
   const lesson = n ? wb.find((w) => String(w.n) === n) : null;
   if (lesson) {
+    // HSK 标准教程 4 上 练习册 listening audio: 3 parts (第1–5 / 6–12 / 13–22 题), lessons 1–10.
+    const parts = lesson.n <= 10
+      ? ["第一部分 · 第 1–5 题 · 听后判断对错", "第二部分 · 第 6–12 题 · 听对话选答案", "第三部分 · 第 13–22 题 · 听长对话选答案"]
+          .map((label, i) => {
+            const src = href(`/audio/hsk4aw/hsk4A-workbook-${String(lesson.n).padStart(2, "0")}${i + 1}.mp3`);
+            return `<p class="meta">${label}</p><audio class="sec-audio" controls preload="none" src="${src}"></audio>`;
+          }).join("")
+      : null;
     document.getElementById("app").innerHTML = `
       ${nav("wb4")}
       <div class="wrap narrow">
         <a class="back" href="${href("/hsk4-workbook/")}">&larr; 练习册</a>
         <div class="page-head">
           <h1>第${lesson.n}课 ${esc(lesson.title)}</h1>
-          <p>${lesson.quiz.length} 题 · 选词 8 · 排序 4 · 阅读 9 · 造句 5 · 听力与看图题未收录</p>
+          <p>${lesson.quiz.length} 题 · 选词 8 · 排序 4 · 阅读 9 · 造句 5 · 听力音频 · 看图题未收录</p>
         </div>
+        ${parts ? `<div class="list-head"><h2>听力 · Listening · 题目与图见原书</h2></div>${parts}` : ""}
         <div id="wb-lesson"></div>
       </div>`;
     document.getElementById("wb-lesson").append(renderQuiz(lesson.quiz));
@@ -483,7 +492,7 @@ function renderWorkbook(n) {
         <h1>HSK 标准教程 4 上／下 · 练习册</h1>
         <p>${wb.length} 课 · ${wb.reduce((s, w) => s + w.quiz.length, 0)} 题 · <a href="${href("/HSK-4A-Workbook.md")}">上册 map</a> · <a href="${href("/HSK-4B-Workbook.md")}">下册 map</a> · <a href="${href("/hsk4-textbook/")}">课文 lessons</a></p>
       </div>
-      <p class="meta">题目录自练习册(阅读23–43、书写44–48)。听力1–22需音频、49–50看图造句,未收录;练习册未附答案,本页答案为整理所得;个别扫描不清的词语按课本词表复原,个别选项从略。</p>
+      <p class="meta">题目录自练习册(阅读23–43、书写44–48)。上册听力1–22音频可在各课页面播放(题目见原书),49–50看图造句未收录;练习册未附答案,本页答案为整理所得;个别扫描不清的词语按课本词表复原,个别选项从略。</p>
       <div class="list">
         <div class="list-head"><h2>上册 · Lessons 1–10</h2></div>
         <div>${a.map(wbRow).join("")}</div>

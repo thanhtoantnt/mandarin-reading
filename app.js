@@ -427,16 +427,23 @@ function md(src) {
 
 function renderTb5() {
   const list = TEXTS.filter((t) => t.id.startsWith("tb5-"));
+  const a = list.filter((t) => t.n <= 18);
+  const b = list.filter((t) => t.n > 18);
   const read = list.filter((t) => state.done.includes(t.id)).length;
   document.getElementById("app").innerHTML = `
     ${nav("tb5")}
     <div class="wrap">
       <div class="page-head">
-        <h1>HSK 标准教程 5 上</h1>
-        <p>${list.length} / 18 lessons · ${read} read · 课文录音可播放 · <a href="${href("/hsk4-textbook/")}">HSK 4 课本</a></p>
+        <h1>HSK 标准教程 5 上／下</h1>
+        <p>${list.length} / 36 lessons · ${read} read · 课文录音(上册)可播放</p>
       </div>
       <div class="list">
-        <div>${list.map(lessonRow).join("")}</div>
+        <div class="list-head"><h2>上册 · Lessons 1–18</h2></div>
+        <div>${a.map(lessonRow).join("")}</div>
+      </div>
+      <div class="list">
+        <div class="list-head"><h2>下册 · Lessons 19–36</h2></div>
+        <div>${b.map(lessonRow).join("")}</div>
       </div>
     </div>`;
 }

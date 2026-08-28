@@ -426,7 +426,7 @@ function md(src) {
 }
 
 function renderTb5() {
-  const list = TEXTS.filter((t) => t.id.startsWith("tb5-"));
+  const list = TEXTS.filter((t) => t.id.startsWith("tb5-")).sort((a, b) => a.n - b.n);
   const a = list.filter((t) => t.n <= 18);
   const b = list.filter((t) => t.n > 18);
   const read = list.filter((t) => state.done.includes(t.id)).length;
